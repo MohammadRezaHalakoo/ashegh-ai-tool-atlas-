@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mohammadrezahalakoo.github.io/ashegh-ai-tool-atlas-/sitemap.xml
