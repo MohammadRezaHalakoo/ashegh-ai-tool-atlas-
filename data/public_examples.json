@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "note": "Independently selected public examples; not an export of the private research registry. Inclusion is not endorsement.",
+  "note": "24 independently selected public examples with GitHub repository existence checked on 2026-10-19; descriptions are editorial summaries, not security or license audits. No private research registry export.",
   "review_status": "SOURCE_LINK_VERIFIED_ONLY",
   "items": [
     {
@@ -30,6 +30,146 @@
       "category": "Serving & MLOps",
       "url": "https://github.com/vllm-project/vllm",
       "description": "Open-source inference and serving engine for language models."
+    },
+    {
+      "id": "github:microsoft/autogen",
+      "name": "autogen",
+      "category": "Agent Frameworks",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "Framework for multi-agent application development."
+    },
+    {
+      "id": "github:crewaiinc/crewai",
+      "name": "crewAI",
+      "category": "Agent Frameworks",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "Framework for orchestrating role-based AI agents."
+    },
+    {
+      "id": "github:langchain-ai/langgraph",
+      "name": "langgraph",
+      "category": "Agent Frameworks",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Graph-based workflows for stateful agents."
+    },
+    {
+      "id": "github:run-llama/llama_index",
+      "name": "llama_index",
+      "category": "RAG & Search",
+      "url": "https://github.com/run-llama/llama_index",
+      "description": "Framework for connecting LLM applications with external data."
+    },
+    {
+      "id": "github:chroma-core/chroma",
+      "name": "chroma",
+      "category": "RAG & Search",
+      "url": "https://github.com/chroma-core/chroma",
+      "description": "Embedding-oriented database for retrieval workflows."
+    },
+    {
+      "id": "github:qdrant/qdrant",
+      "name": "qdrant",
+      "category": "RAG & Search",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Vector search engine and database."
+    },
+    {
+      "id": "github:ollama/ollama",
+      "name": "ollama",
+      "category": "Local Inference",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Run supported language models locally."
+    },
+    {
+      "id": "github:ggml-org/llama.cpp",
+      "name": "llama.cpp",
+      "category": "Local Inference",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "Efficient C/C++ inference engine for language models."
+    },
+    {
+      "id": "github:huggingface/transformers",
+      "name": "transformers",
+      "category": "Foundation Models",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "Library for pretrained transformer models and tooling."
+    },
+    {
+      "id": "github:openai/whisper",
+      "name": "whisper",
+      "category": "Speech & Audio",
+      "url": "https://github.com/openai/whisper",
+      "description": "Speech recognition model and inference reference."
+    },
+    {
+      "id": "github:systran/faster-whisper",
+      "name": "faster-whisper",
+      "category": "Speech & Audio",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "description": "CTranslate2-based Whisper inference implementation."
+    },
+    {
+      "id": "github:open-webui/open-webui",
+      "name": "open-webui",
+      "category": "Interfaces",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "Self-hostable web interface for AI systems."
+    },
+    {
+      "id": "github:flowiseai/flowise",
+      "name": "Flowise",
+      "category": "Automation & Integration",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "description": "Visual builder for LLM and agent workflows."
+    },
+    {
+      "id": "github:browser-use/browser-use",
+      "name": "browser-use",
+      "category": "Agent Frameworks",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "Browser automation components for AI agents."
+    },
+    {
+      "id": "github:microsoft/markitdown",
+      "name": "markitdown",
+      "category": "Document Processing",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Document-to-Markdown conversion utility."
+    },
+    {
+      "id": "github:berriai/litellm",
+      "name": "litellm",
+      "category": "Serving & MLOps",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "Unified gateway and interface for model providers."
+    },
+    {
+      "id": "github:mem0ai/mem0",
+      "name": "mem0",
+      "category": "Agent Memory",
+      "url": "https://github.com/mem0ai/mem0",
+      "description": "Memory layer for AI applications."
+    },
+    {
+      "id": "github:arize-ai/phoenix",
+      "name": "phoenix",
+      "category": "Evaluation & Observability",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "description": "Tracing and evaluation tools for AI applications."
+    },
+    {
+      "id": "github:langfuse/langfuse",
+      "name": "langfuse",
+      "category": "Evaluation & Observability",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "Open-source observability and evaluation platform."
+    },
+    {
+      "id": "github:modelcontextprotocol/python-sdk",
+      "name": "python-sdk",
+      "category": "MCP, Skills & Plugins",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "description": "Python SDK for Model Context Protocol implementations."
     }
   ]
 }

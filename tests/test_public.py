@@ -7,6 +7,7 @@ class PublicTests(unittest.TestCase):
     def test_schema_and_unique_urls(self):
         d=json.loads((ROOT/'data/public_examples.json').read_text())
         self.assertEqual(d['schema_version'],'1.0')
+        self.assertGreaterEqual(len(d['items']),20)
         ids=set()
         for x in d['items']:
             self.assertTrue(re.fullmatch(r'github:[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',x['id']))
