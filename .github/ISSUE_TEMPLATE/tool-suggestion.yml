@@ -1,0 +1,16 @@
+name: Suggest a tool
+description: Propose a public AI tool for inclusion
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Canonical source URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Use case and evidence
+    validations:
+      required: true
