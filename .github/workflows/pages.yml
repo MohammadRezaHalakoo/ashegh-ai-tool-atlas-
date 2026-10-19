@@ -25,6 +25,11 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
+          mkdir -p _site/data
+          cp data/public_examples.json _site/data/public_examples.json
+          python -m json.tool _site/data/public_examples.json > /dev/null
+          test -s _site/index.html
+          test -s _site/data/public_examples.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
