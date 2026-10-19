@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ashegh AI Tool Atlas</title>
+<style>body{font-family:system-ui;background:#0d1424;color:#e8efff;max-width:1000px;margin:auto;padding:28px}a{color:#90caff}p,small{color:#b6c6de}.bar{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}input,select{background:#1c2941;color:white;border:1px solid #4b5d79;border-radius:8px;padding:12px;flex:1;min-width:160px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}article{background:#19263d;padding:20px;border:1px solid #364760;border-radius:12px}h1{margin-bottom:4px}</style></head><body>
+<h1>Ashegh AI Tool Atlas</h1><p>Public, independently selected examples. The research database remains private. Listing is not a security endorsement.</p>
+<div class="bar"><input id="q" placeholder="Search tools and descriptions" aria-label="Search"><select id="cat" aria-label="Category"><option value="">All categories</option></select></div><p id="count"></p><main id="grid" class="grid"></main>
+<script>
+const items=[
+{name:"n8n",category:"Automation & Integration",url:"https://github.com/n8n-io/n8n",description:"Workflow automation platform; review licensing before use."},
+{name:"LangChain",category:"Agent Frameworks",url:"https://github.com/langchain-ai/langchain",description:"Framework and integrations for LLM-powered applications."},
+{name:"MCP Servers",category:"MCP, Skills & Plugins",url:"https://github.com/modelcontextprotocol/servers",description:"Reference and community-oriented MCP server examples."},
+{name:"vLLM",category:"Serving & MLOps",url:"https://github.com/vllm-project/vllm",description:"Open-source language-model inference and serving engine."}
+];
+const q=document.getElementById("q"),cat=document.getElementById("cat"),grid=document.getElementById("grid"),count=document.getElementById("count");
+for(const c of [...new Set(items.map(x=>x.category))].sort()){const o=document.createElement("option");o.value=c;o.textContent=c;cat.append(o)}
+function render(){const found=items.filter(x=>(!cat.value||x.category===cat.value)&&[x.name,x.category,x.description].join(" ").toLowerCase().includes(q.value.toLowerCase()));count.textContent=found.length+" public examples";grid.replaceChildren();for(const x of found){const a=document.createElement("article"),h=document.createElement("h2"),link=document.createElement("a"),p=document.createElement("p"),s=document.createElement("small");link.href=x.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=x.name;h.append(link);p.textContent=x.description;s.textContent=x.category+" · Source link checked · Not security audited";a.append(h,p,s);grid.append(a)}}
+q.addEventListener("input",render);cat.addEventListener("change",render);render();
+</script></body></html>
