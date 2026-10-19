@@ -30,3 +30,6 @@ Please propose tools with canonical source URLs, use cases, licenses and evidenc
 - [ ] Community contribution workflow
 
 Maintained by [MohammadRezaHalakoo](https://github.com/MohammadRezaHalakoo).
+
+## Public demo
+A self-contained [searchable HTML demo](index.html) and [public example dataset](data/public_examples.json) are available. The initial demo contains four independently selected public repositories and is intentionally not a copy of the private research registry. To view the demo, download `index.html` and open it locally; GitHub Pages has not been enabled or verified. More public records require review before release.
