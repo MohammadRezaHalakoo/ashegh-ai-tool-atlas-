@@ -17,6 +17,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/discover_candidates.py
+      - name: Evaluate candidate metadata without publishing
+        run: python scripts/evaluate_candidates.py
       - name: Validate candidate queue
         run: |
           python -m json.tool data/discovery_candidates.json > /dev/null
@@ -25,7 +27,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovery_candidates.json
+          git add data/discovery_candidates.json data/promotion_audit.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(discovery): update unreviewed public candidate queue"
             git push
