@@ -68,6 +68,22 @@ class PublicTests(unittest.TestCase):
         self.assertIn("cron: '30 5 * * *'",workflow)
         self.assertIn("cron: '15 6 * * *'",(ROOT/'.github/workflows/source-metadata.yml').read_text())
         self.assertIn("cron: '45 6 * * *'",(ROOT/'.github/workflows/pages.yml').read_text())
+    def test_review_gate_and_health_workflow(self):
+        from importlib.util import spec_from_file_location, module_from_spec
+        spec=spec_from_file_location('candidate_evaluator',ROOT/'scripts/evaluate_candidates.py')
+        mod=module_from_spec(spec);spec.loader.exec_module(mod)
+        sample={'id':'github:sample/tool','url':'https://github.com/sample/tool',
+          'review_status':'DISCOVERED_UNREVIEWED','archived':False,'stars_snapshot':200,
+          'license_spdx':'MIT','proposed_category':'Agent Frameworks',
+          'description':'A public repository with a documented example implementation.'}
+        self.assertTrue(mod.eligible(sample)[0])
+        self.assertFalse(mod.eligible({**sample,'url':'https://evil.example/tool'})[0])
+        self.assertFalse(mod.eligible({**sample,'license_spdx':'UNKNOWN'})[0])
+        self.assertIn('HUMAN_REVIEW_REQUIRED_FOR_PUBLICATION',(ROOT/'scripts/evaluate_candidates.py').read_text())
+        self.assertIn('scripts/evaluate_candidates.py',(ROOT/'.github/workflows/daily-discovery.yml').read_text())
+        health=(ROOT/'.github/workflows/operations-health.yml').read_text()
+        self.assertIn('scripts/check_health.py',health)
+        self.assertIn('issues: write',health)
     def test_no_private_registry_export(self):
         self.assertFalse((ROOT/'registry/tools.json').exists())
 if __name__=='__main__': unittest.main()

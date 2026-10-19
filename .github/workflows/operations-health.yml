@@ -1,0 +1,44 @@
+name: Atlas operations health
+on:
+  schedule:
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check data freshness, deployed site and recent workflows
+        id: health
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: python scripts/check_health.py
+      - name: Create or update a failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          gh issue list --state open --search 'Atlas automation health alert in:title' --json number --jq '.[0].number' > /tmp/atlas_issue
+          issue=$(cat /tmp/atlas_issue)
+          if [ -z "$issue" ]; then
+            gh issue create --title "Atlas automation health alert" --body "Automated health check failed. Review the failing workflow logs, scheduled runs and site response. This issue is intentionally deduplicated."
+          else
+            gh issue comment "$issue" --body "Health check failed again. Review the latest Actions run."
+          fi
+      - name: Close resolved alert
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --state open --search 'Atlas automation health alert in:title' --json number --jq '.[].number' | while read -r issue; do
+            gh issue comment "$issue" --body "Daily health check passed; closing this alert."
+            gh issue close "$issue"
+          done
