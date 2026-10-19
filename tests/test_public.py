@@ -19,6 +19,17 @@ class PublicTests(unittest.TestCase):
         self.assertIn('Ashegh AI Tool Atlas',site)
         self.assertIn('noopener noreferrer',site)
         self.assertNotIn('ashegh-universal-agent-intelligence',site)
+    def test_comparison_pages_and_sitemap(self):
+        pages=['agent-frameworks','rag-search','mcp','llm-serving']
+        sitemap=(ROOT/'sitemap.xml').read_text()
+        for slug in pages:
+            html=(ROOT/'compare'/f'{slug}.html').read_text()
+            self.assertIn('public_examples.json',html)
+            self.assertIn(f'compare/{slug}.html',sitemap)
+        self.assertIn('compare/index.html',(ROOT/'index.html').read_text())
+        workflow=(ROOT/'.github/workflows/pages.yml').read_text()
+        self.assertIn('cp -r compare _site/compare',workflow)
+        self.assertIn('cp sitemap.xml robots.txt _site/',workflow)
     def test_no_private_registry_export(self):
         self.assertFalse((ROOT/'registry/tools.json').exists())
 if __name__=='__main__': unittest.main()
