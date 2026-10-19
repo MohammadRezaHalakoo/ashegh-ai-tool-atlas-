@@ -27,6 +27,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Refresh public metadata for deployed artifact
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/refresh_source_metadata.py
