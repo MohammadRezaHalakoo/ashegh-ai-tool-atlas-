@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '45 6 * * 1'
 permissions:
   contents: read
   pages: write
@@ -21,6 +23,16 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Refresh public metadata for deployed artifact
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/refresh_source_metadata.py
+      - name: Generate tool profiles and sitemap
+        run: python scripts/build_tool_pages.py
       - name: Prepare public static site
         run: |
           mkdir -p _site
@@ -29,6 +41,8 @@ jobs:
           cp data/public_examples.json _site/data/public_examples.json
           if [ -f data/source_metadata.json ]; then cp data/source_metadata.json _site/data/source_metadata.json; fi
           cp -r compare _site/compare
+          cp -r tools _site/tools
+          test -s _site/tools/index.html
           cp sitemap.xml robots.txt _site/
           test -s _site/compare/index.html
           test -s _site/compare/agent-frameworks.html

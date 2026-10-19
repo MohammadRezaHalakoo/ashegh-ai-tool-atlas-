@@ -38,6 +38,18 @@ class PublicTests(unittest.TestCase):
         self.assertIn('workflow_dispatch:',workflow)
         self.assertIn('source_metadata.json',(ROOT/'index.html').read_text())
         self.assertIn('source_metadata.json',(ROOT/'.github/workflows/pages.yml').read_text())
+    def test_generated_tool_profiles(self):
+        import subprocess
+        import sys
+        subprocess.run([sys.executable, str(ROOT/'scripts/build_tool_pages.py')], check=True)
+        catalog=json.loads((ROOT/'data/public_examples.json').read_text())
+        for item in catalog['items']:
+            slug=item['id'].removeprefix('github:').replace('/','--').lower()
+            page=(ROOT/'tools'/f'{slug}.html')
+            self.assertTrue(page.is_file(),slug)
+            self.assertIn(item['url'],page.read_text())
+            self.assertIn('tools/'+slug+'.html',(ROOT/'sitemap.xml').read_text())
+        self.assertIn('cp -r tools _site/tools',(ROOT/'.github/workflows/pages.yml').read_text())
     def test_no_private_registry_export(self):
         self.assertFalse((ROOT/'registry/tools.json').exists())
 if __name__=='__main__': unittest.main()
