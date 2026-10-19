@@ -1,0 +1,32 @@
+name: Discover public AI tool candidates
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Discover public candidates without publishing
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/discover_candidates.py
+      - name: Validate candidate queue
+        run: |
+          python -m json.tool data/discovery_candidates.json > /dev/null
+          python -m unittest discover -s tests -v
+      - name: Commit discovery queue only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/discovery_candidates.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(discovery): update unreviewed public candidate queue"
+            git push
+          fi
