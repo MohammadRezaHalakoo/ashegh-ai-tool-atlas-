@@ -1,0 +1,30 @@
+name: Refresh public source metadata
+on:
+  schedule:
+    - cron: '15 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch GitHub public metadata only
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/refresh_source_metadata.py
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Commit refreshed public snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source_metadata.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): refresh public GitHub source snapshots"
+            git push
+          fi
