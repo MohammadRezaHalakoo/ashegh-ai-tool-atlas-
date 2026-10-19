@@ -1,7 +1,7 @@
 name: Refresh public source metadata
 on:
   schedule:
-    - cron: '15 6 * * 1'
+    - cron: '15 6 * * *'
   workflow_dispatch:
 permissions:
   contents: write
