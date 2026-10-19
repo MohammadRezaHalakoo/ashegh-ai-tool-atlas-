@@ -17,7 +17,7 @@ AI tooling changes quickly. This project aims to make discovery reproducible and
 - No external software is automatically installed or executed.
 
 ## Getting started
-The public dashboard and curated public dataset will be added after a privacy and license review. The source catalogue remains private until that review is complete.
+A source-verified public sample dataset and searchable dashboard are available. Inclusion is not a security, license or performance audit. The source research catalogue remains private.
 
 ## Contributing
 Please propose tools with canonical source URLs, use cases, licenses and evidence. Avoid unverifiable claims.
@@ -32,4 +32,4 @@ Please propose tools with canonical source URLs, use cases, licenses and evidenc
 Maintained by [MohammadRezaHalakoo](https://github.com/MohammadRezaHalakoo).
 
 ## Public demo
-A self-contained [searchable HTML demo](index.html) and [public example dataset](data/public_examples.json) are available. The initial demo contains four independently selected public repositories and is intentionally not a copy of the private research registry. To view the demo, download `index.html` and open it locally; GitHub Pages has not been enabled or verified. More public records require review before release.
+A self-contained [searchable HTML demo](index.html) and [public example dataset](data/public_examples.json) are available. The public demo contains 24 independently selected public repositories and is intentionally not a copy of the private research registry. To view the demo, download `index.html` and open it locally; GitHub Pages has not been enabled or verified. More public records require review before release.
