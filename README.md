@@ -26,13 +26,13 @@ Please propose tools with canonical source URLs, use cases, licenses and evidenc
 - [ ] Public-safe curated data export
 - [x] Searchable static dashboard
 - [x] Criteria-based comparison guides (not benchmark rankings)
-- [ ] Scheduled public releases
+- [x] Daily metadata refresh and Pages rebuild; new candidates remain review-gated
 - [ ] Community contribution workflow
 
 Maintained by [MohammadRezaHalakoo](https://github.com/MohammadRezaHalakoo).
 
 ## Public demo
-A self-contained [searchable HTML demo](index.html) and [public example dataset](data/public_examples.json) are available. The public demo contains 24 independently selected public repositories and is intentionally not a copy of the private research registry. To view the demo, download `index.html` and open it locally; GitHub Pages has not been enabled or verified. More public records require review before release.
+A self-contained [searchable HTML demo](index.html) and [public example dataset](data/public_examples.json) are available. The public demo contains 24 independently selected public repositories and is intentionally not a copy of the private research registry. To view the demo, download `index.html` and open it locally; GitHub Pages is enabled and has been deployed successfully. More public records require review before release.
 
 ## Comparison guides
 - [Agent frameworks](compare/agent-frameworks.html)
@@ -41,3 +41,10 @@ A self-contained [searchable HTML demo](index.html) and [public example dataset]
 - [LLM serving](compare/llm-serving.html)
 
 See [comparison methodology](docs/COMPARISON_METHODOLOGY.md) for evidence limitations.
+
+## Daily automation (UTC / Tehran)
+- 05:30 UTC / 09:00 Tehran: discover public GitHub candidate repositories into `data/discovery_candidates.json`, **not the public catalogue**.
+- 06:15 UTC / 09:45 Tehran: refresh public GitHub metadata for existing catalogue entries.
+- 06:45 UTC / 10:15 Tehran: rebuild and deploy static public site.
+- GitHub scheduled workflows are best-effort and can be delayed or fail. Check Actions for real results. No guarantee of new published tools every day; review is required before publishing new candidates.
+

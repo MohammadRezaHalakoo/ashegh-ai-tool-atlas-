@@ -59,6 +59,15 @@ class PublicTests(unittest.TestCase):
         self.assertIn('aria-live="polite"',listing)
         self.assertIn('noopener noreferrer',listing)
         self.assertIn('cp -r tools _site/tools',(ROOT/'.github/workflows/pages.yml').read_text())
+    def test_daily_discovery_is_review_gated(self):
+        collector=(ROOT/'scripts/discover_candidates.py').read_text()
+        workflow=(ROOT/'.github/workflows/daily-discovery.yml').read_text()
+        self.assertIn('DISCOVERED_UNREVIEWED',collector)
+        self.assertIn('data/discovery_candidates.json',workflow)
+        self.assertNotIn('git add data/public_examples.json',workflow)
+        self.assertIn("cron: '30 5 * * *'",workflow)
+        self.assertIn("cron: '15 6 * * *'",(ROOT/'.github/workflows/source-metadata.yml').read_text())
+        self.assertIn("cron: '45 6 * * *'",(ROOT/'.github/workflows/pages.yml').read_text())
     def test_no_private_registry_export(self):
         self.assertFalse((ROOT/'registry/tools.json').exists())
 if __name__=='__main__': unittest.main()
