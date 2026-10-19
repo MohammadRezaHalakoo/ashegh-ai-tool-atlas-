@@ -13,3 +13,6 @@ Before expanding the public dataset: verify public origin, attribution, license 
 
 ## Suggested growth
 Make reproducible comparisons, publish useful examples, respond to community contributions, and release human-reviewed changelogs. Avoid mass automated outreach, purchased followers, or automated stars.
+
+## 2026-10-19 deployment check
+PR #1 was squash-merged and CI passed on main. Pages deploy failed because Pages was not enabled. A subsequent attempt using `actions/configure-pages@v5` with `enablement: true` also failed: `Resource not accessible by integration` on Pages site creation. **One-time manual step required:** Repository Settings → Pages → Build and deployment → Source: GitHub Actions. Then re-run the Pages workflow. Do not claim the website is live before a successful deployment.
