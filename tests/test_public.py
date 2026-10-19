@@ -30,6 +30,14 @@ class PublicTests(unittest.TestCase):
         workflow=(ROOT/'.github/workflows/pages.yml').read_text()
         self.assertIn('cp -r compare _site/compare',workflow)
         self.assertIn('cp sitemap.xml robots.txt _site/',workflow)
+    def test_metadata_pipeline_contract(self):
+        script=(ROOT/'scripts/refresh_source_metadata.py').read_text()
+        workflow=(ROOT/'.github/workflows/source-metadata.yml').read_text()
+        self.assertIn('api.github.com/repos/',script)
+        self.assertIn('METADATA_ONLY_NOT_AUDITED',script)
+        self.assertIn('workflow_dispatch:',workflow)
+        self.assertIn('source_metadata.json',(ROOT/'index.html').read_text())
+        self.assertIn('source_metadata.json',(ROOT/'.github/workflows/pages.yml').read_text())
     def test_no_private_registry_export(self):
         self.assertFalse((ROOT/'registry/tools.json').exists())
 if __name__=='__main__': unittest.main()
