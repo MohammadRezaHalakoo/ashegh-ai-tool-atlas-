@@ -13,7 +13,23 @@ QUERIES={
  "Speech & Audio":"topic:speech-recognition",
  "Evaluation & Observability":"topic:llm-evaluation",
  "Agent Memory":"topic:agent-memory",
- "Automation & Integration":"topic:workflow-automation"
+ "Automation & Integration":"topic:workflow-automation",
+ "Foundation Models":"topic:transformers",
+ "Local Inference":"topic:local-llm",
+ "Interfaces":"topic:llm-ui",
+ "Document Processing":"topic:document-ai",
+ "Computer Vision":"topic:computer-vision",
+ "Multimodal AI":"topic:multimodal",
+ "AI Coding":"topic:ai-coding-assistant",
+ "Data Engineering":"topic:data-engineering",
+ "Model Training":"topic:fine-tuning",
+ "Model Optimization":"topic:quantization",
+ "AI Safety":"topic:ai-safety",
+ "Research Tools":"topic:machine-learning-research",
+ "Knowledge Graphs":"topic:knowledge-graph",
+ "Synthetic Data":"topic:synthetic-data",
+ "Robotics":"topic:robotics",
+ "AI Infrastructure":"topic:mlops"
 }
 HEADERS={"Accept":"application/vnd.github+json","User-Agent":"ashegh-atlas-public-discovery"}
 if os.environ.get("GITHUB_TOKEN"):HEADERS["Authorization"]="Bearer "+os.environ["GITHUB_TOKEN"]
@@ -22,7 +38,7 @@ def main():
     found={}
     failures=[]
     for category,query in QUERIES.items():
-        url="https://api.github.com/search/repositories?"+urllib.parse.urlencode({"q":query+" archived:false","sort":"updated","order":"desc","per_page":15})
+        url="https://api.github.com/search/repositories?"+urllib.parse.urlencode({"q":query+" archived:false","sort":"updated","order":"desc","per_page":30})
         try:
             with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=25) as response:
                 items=json.load(response)["items"]
@@ -37,10 +53,10 @@ def main():
              "stars_snapshot":item.get("stargazers_count"),"archived":item.get("archived"),
              "license_spdx":(item.get("license") or {}).get("spdx_id") or "UNKNOWN",
              "review_status":"DISCOVERED_UNREVIEWED","source_query":query}
-    if len(failures)==len(QUERIES):raise SystemExit("All GitHub searches failed; preserve previous candidate queue")
+    if len(failures)>len(QUERIES)//4:raise SystemExit("Discovery quality gate: too many GitHub search failures; preserve previous queue")
     result={"schema_version":"1.0","checked_at":datetime.now(timezone.utc).isoformat(timespec="seconds"),
       "note":"Candidate queue only; not published to the public tool catalogue without source review.",
-      "successful_queries":len(QUERIES)-len(failures),"failed_queries":failures,
+      "expected_queries":len(QUERIES),"successful_queries":len(QUERIES)-len(failures),"failed_queries":failures,
       "items":sorted(found.values(),key=lambda x:x["id"].lower())}
     OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
     print("Candidate queue:",len(found),"successful searches:",result["successful_queries"])
