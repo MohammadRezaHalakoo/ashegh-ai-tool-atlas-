@@ -15,7 +15,7 @@ def eligible(x):
     if x.get('archived') is not False:return False,'archived-or-unknown'
     if not isinstance(x.get('stars_snapshot'),int) or x['stars_snapshot']<100:return False,'insufficient-source-signal'
     if x.get('license_spdx') in (None,'UNKNOWN','NOASSERTION'):return False,'license-metadata-unavailable'
-    if x.get('proposed_category') not in ('Agent Frameworks','MCP, Skills & Plugins','RAG & Search','Serving & MLOps','Speech & Audio','Evaluation & Observability','Agent Memory','Automation & Integration'):return False,'unknown-category'
+    if x.get('proposed_category') not in ('Agent Frameworks','MCP, Skills & Plugins','RAG & Search','Serving & MLOps','Speech & Audio','Evaluation & Observability','Agent Memory','Automation & Integration','Foundation Models','Local Inference','Interfaces','Document Processing','Computer Vision','Multimodal AI','AI Coding','Data Engineering','Model Training','Model Optimization','AI Safety','Research Tools','Knowledge Graphs','Synthetic Data','Robotics','AI Infrastructure'):return False,'unknown-category'
     desc=x.get('description','')
     if len(desc.strip())<20 or len(desc)>240:return False,'missing-description'
     return True,'metadata-gates-passed'
@@ -23,7 +23,7 @@ def main():
     if not CANDIDATES.exists():
         print('No candidate queue yet; no changes');return
     queue=json.loads(CANDIDATES.read_text())
-    if queue.get('successful_queries',0)<6:
+    if queue.get('successful_queries',0)<int(queue.get('expected_queries',8)*0.75):
         raise SystemExit('Too few successful discovery queries; refusing promotion')
     catalog=json.loads(CATALOG.read_text())
     existing={x['id'].lower() for x in catalog['items']}
