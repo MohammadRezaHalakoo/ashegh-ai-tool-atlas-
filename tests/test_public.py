@@ -84,6 +84,14 @@ class PublicTests(unittest.TestCase):
         health=(ROOT/'.github/workflows/operations-health.yml').read_text()
         self.assertIn('scripts/check_health.py',health)
         self.assertIn('issues: write',health)
+    def test_24_domain_discovery_coverage(self):
+        from importlib.util import spec_from_file_location, module_from_spec
+        spec=spec_from_file_location('atlas_discovery',ROOT/'scripts/discover_candidates.py')
+        mod=module_from_spec(spec);spec.loader.exec_module(mod)
+        self.assertEqual(len(mod.QUERIES),24)
+        self.assertIn('expected_queries',(ROOT/'scripts/discover_candidates.py').read_text())
+        self.assertIn('expected_queries',(ROOT/'scripts/evaluate_candidates.py').read_text())
+        self.assertIn('time.sleep(2)',(ROOT/'scripts/discover_candidates.py').read_text())
     def test_no_private_registry_export(self):
         self.assertFalse((ROOT/'registry/tools.json').exists())
 if __name__=='__main__': unittest.main()
