@@ -1,5 +1,5 @@
 """Discover public GitHub candidates without publishing unreviewed claims."""
-import json, os, urllib.request, urllib.parse
+import json, os, urllib.request, urllib.parse, urllib.error, time
 from datetime import datetime, timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -40,11 +40,19 @@ def main():
     for category,query in QUERIES.items():
         url="https://api.github.com/search/repositories?"+urllib.parse.urlencode({"q":query+" archived:false","sort":"updated","order":"desc","per_page":30})
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=25) as response:
-                items=json.load(response)["items"]
+            items=None
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(urllib.request.Request(url,headers=HEADERS),timeout=25) as response:
+                        items=json.load(response)["items"]
+                    break
+                except (urllib.error.URLError,TimeoutError):
+                    if attempt==2:raise
+                    time.sleep(3*(attempt+1))
         except Exception as exc:
             failures.append({"category":category,"reason":type(exc).__name__})
             continue
+        time.sleep(2)
         for item in items:
             key="github:"+item["full_name"].lower()
             if key in existing or key in found:continue
