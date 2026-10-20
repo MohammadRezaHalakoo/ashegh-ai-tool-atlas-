@@ -11,3 +11,4 @@ Status: DISCOVERED_UNREVIEWED. Reference links only; no installation, execution,
 | dataplusscience.ir/7658/open-source-ai-agents-resources-complete-guide/ | Third-party discovery article; not a Git repository | https://dataplusscience.ir/7658/open-source-ai-agents-resources-complete-guide/ | Not independently verified; inspect license, provenance, dependencies and permissions |
 
 Public atlas: publish only these user-supplied public links, never private registry records. Private registry: candidate list only until schema-compatible ingestion and regenerated catalog. Risk: prompt injection and supply-chain issues in third-party agent instructions.
+| Lexmount/moli | AI agent/tool candidate — classification pending | https://github.com/Lexmount/moli | License, maintenance, permissions and security not independently verified; DISCOVERED_UNREVIEWED |
