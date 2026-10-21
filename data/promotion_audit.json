@@ -3,12 +3,22 @@
   "policy": "HUMAN_REVIEW_REQUIRED_FOR_PUBLICATION",
   "decisions": [
     {
-      "id": "github:07fahim/ai-receipt-invoice-extractor",
+      "id": "github:1040942669/legal-rag-agent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:1999AZZAR/chaining-mcp",
+      "id": "github:1bit-MONSTER/engine",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:232yhzhang/necktalk",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:23min/aiwf",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -18,17 +28,27 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:666feiyu666/Arioso",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:A-Rozmarynowicz/Quadcopter_Full_Implementation",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:A1m1ng777888/super-brain",
+      "id": "github:A220man/A220man",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:AAMARVA/AAMARVA",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:abacusai/abacusai-bot",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:abdra7/Lycosa",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -38,12 +58,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:abhieq31/roomtobreathe",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Abhishek-369V/ai-voice-sales-bot",
+      "id": "github:Abhishek-Rnjn/Evals.si",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -63,6 +78,16 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:activepieces/activepieces",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
+    },
+    {
+      "id": "github:adaltomatos01/perfex-crm-guardrails",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:Aditya-Khankar/gnn-optimal-transport-pooling",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
@@ -78,9 +103,29 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Agenta-AI/agenta",
+      "id": "github:advenn/ursus",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:agentic-os-org/ANOLISA",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:Agentic-Systems-Lab/Agentic-AutoRAG",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:AgentToolkit/altk-evolve",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:agentty-org/agentty",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:AGenUI/AGenUI",
@@ -88,9 +133,9 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:Ahmed-KA-Abdalla/gridcast",
+      "id": "github:ai-dynamo/dynamo",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:AI-WorkDeck/aiworkdeck",
@@ -98,32 +143,17 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:AIAnytime/Awesome-MCP-Servers",
+      "id": "github:AJakif/jp-invoice-intake",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:aiirobyte/rowan-agent",
+      "id": "github:akop-cyber/Documind-V2",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:aiperceivable/apflow",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:airbytehq/airbyte",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
-    },
-    {
-      "id": "github:aisixteen/fantastic",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:alainlopez486/py-idp",
+      "id": "github:al-nafisah/fpga-video-classifier",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -133,12 +163,52 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:alawein/siftgrain-audit",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:albatross-core/parquet-visualizer",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:AlejandroEscapa/bd-peliculas",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:alekseevpavel04/ru-it-jobs-radar",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:AlessioBrillo/from-gradient-to-transformer",
+      "id": "github:alex0xhodler/defi_garden",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:alexisromtz-lab/platino-labs",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:alexnodeland/lattice",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:ali-ulu/huqan",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:ali3nz/Singularity-RepoQL",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:alimehdikhan/A.I-Pronunciation-Coach",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -148,7 +218,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:amado2k5/cookwala",
+      "id": "github:amasu/glm53-flash-cluster",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -158,17 +228,12 @@
       "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:aminah7med/data-engineering-journey",
+      "id": "github:Anant2580/berlin-transit-delays",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ammonwk/agentbox",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:AmosAlloyce/peopleos",
+      "id": "github:Andrea-Cavallo/adOmnia",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -183,39 +248,24 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:andriidudar/andriidudar-opik-hands-on",
+      "id": "github:anomalyco/hex",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:ansaribilal14/personal-social-agent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:AnemoneUwU/agent-forge-cli",
+      "id": "github:answertree/claude-fleet",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:anhaoXie/videonote",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ankita-auth/Invar_Jibitesh_Ankita",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:annumishr/memex-hypertext-bridge",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Antonio-Prado/zautte",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:antonsoo/fieldproof",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:anush008/fastembed-rs",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:ao-labs-123/micro-act-r",
@@ -228,52 +278,42 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:api-evangelist/ai21-labs",
+      "id": "github:apache/seatunnel",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:api-evangelist/formstack",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:api-evangelist/baseten",
+      "id": "github:api-evangelist/m-files",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:api-evangelist/brick-blue",
+      "id": "github:api-evangelist/pega",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:api-evangelist/dant3-net",
+      "id": "github:api-evangelist/process-street",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:api-evangelist/databricks",
+      "id": "github:api-evangelist/sheetrocks",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:api-evangelist/galileo-technologies",
+      "id": "github:api-evangelist/smartsheet",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:api-evangelist/hugging-face-transformers",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:api-evangelist/openblock-labs",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:api-evangelist/opsera",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:api-evangelist/p0stman-com",
+      "id": "github:api-evangelist/truecontext",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -283,24 +323,9 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:apoorvdarshan/scowld",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Aquilo-Solution-S/Proxima",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:arminfabritzek/WatchMyBirds",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:arpittts/invoiceiq",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:arc53/DocsGPT",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:Artexis10/exomem",
@@ -308,7 +333,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:assassinaj602/sate_ai",
+      "id": "github:ashish10alex/vscode-dataform-tools",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Ashutosh3021/TazaKhabar",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -318,22 +348,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:atif-1402/keeper",
+      "id": "github:atulsrivas1/equity-features",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:audreyvandermeer/qapyq",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:autohandai/code-cli",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:AutomatosAI/automatos-ai",
+      "id": "github:automatika-robotics/embodied-agents",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -343,42 +363,52 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:av/skills",
+      "id": "github:awabmoha/truth-calibration-layer",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Avnish1447/Plant-Disease-Detection",
+      "id": "github:Axiweave/claude-code-ide.el",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:awa-si/nhsmm",
+      "id": "github:axolotl-ai-cloud/axolotl",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:Ayorinha/ayorai-opensearch",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:AXIOVEX/epistemic-ledger",
+      "id": "github:ayushsaxenagithub/Archonix",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:aynxitis/touchstone",
+      "id": "github:ayutaz/unity-embeddinggemma-2",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:balfiky/openrook",
+      "id": "github:b4r4d41z/Synthetic_data_collection_with_ExoSuit",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:bartoszaktas689/loci",
+      "id": "github:baitouwuya/dsh-mcp-server",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:basitalisandhu/agentdojo-mcp",
+      "id": "github:Baron197/agentic-research-assistant",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:barrontang/gguf2mlx",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -388,12 +418,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:BeatriceFernandez9612/LLM-Minutes-of-Meeting",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:beginnerooooh/SubtitleStudio",
+      "id": "github:BatuhanYilmaz26/decision-model-workbench",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -403,22 +428,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:bex-co/bex",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
       "id": "github:BGMLAI/gate.cat",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:BigStrongSun/ccswitchmulti",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:bismawy/pi-vision-watcher",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Bilal51002/air-quality-prediction-morocco",
+      "id": "github:bitworks-io/fast-mlx",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:bks-lab/open-bridge",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -428,14 +453,9 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:BlueTeam-OU/agent-fabric",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:BobClawblaw/recipe-harness",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:blogminhquy/javis-os",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:bogdanstancu1119-maker/psie-arca",
@@ -453,47 +473,17 @@
       "reason": "missing-description"
     },
     {
-      "id": "github:bountyoperator/bounty-operator",
+      "id": "github:Brxckfuller/LLM-Research-Assistant",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:BrendanJamesLynskey/FOptInf_01_Fourier_Optics_for_Engineers",
+      "id": "github:Budibase/budibase",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:BrendanJamesLynskey/FOptInf_05_AI_Workloads_on_a_Stacked_Photonic_Chip",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:BrendanJamesLynskey/inference-tradeoffs-explained",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:BrendanJamesLynskey/llm-inference-explained",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:BrendanJamesLynskey/LLM_Hub_Fourier_Optics_Inference",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:BrendanJamesLynskey/numerics-explained",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:bsherifi/hvac-airgap",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:c1t1zen1/markgitup-research-desk",
+      "id": "github:buraksenyurt/ai-based-development-lecture",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -503,7 +493,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:carlostoledo1891/cert-machine",
+      "id": "github:CambrianTech/continuum",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:CanadaApollo6/openmerge",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:carolsimone/continuo",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -513,14 +513,14 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:catchouli/instructive-chess",
+      "id": "github:cernodatainc/cernodata",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:caura-ai/caura",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:chae0null/quantsentry",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:chaitin/MonkeyCode",
@@ -528,27 +528,17 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:Chandankumar775/aura-cv",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:charoiteai/Charoite_audio",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:chestercs/dgx-openclaw-stack",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Christopher-Schulze/reconc",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:chriswee168/malware-detection-app",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Chumaniac/skilltape",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:CiccioLagXCVIII/Appunti_Latex",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -563,9 +553,14 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:cmudco/dare-backend",
+      "id": "github:claude-dev-suite/claude-dev-suite",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:cloudquery/cloudquery",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:Cocolalilal/LastChat",
@@ -578,39 +573,29 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:Code-Amadeus/Amadeus",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:CodeCortex/finresearch-qwen",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:CODER7657/genex-prj",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:comet-ml/opik",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:connorhriley/kith",
+      "id": "github:Contexera/dsh-agent-team",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Control-Point-FTC/control-scout",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:corese-stack/corese-benchmark",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:cosmo-wander-ai/cosmo-edge",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:CrepuscularIRIS/HarnessRSI-Daily",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:CrispStrobe/CrispASR",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:crmapache/smooth-stream-text",
@@ -618,7 +603,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:csuftt/zcode-jetbrains-plugin",
+      "id": "github:croit/aiplane",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:cskwork/backend-dev-skills",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:cskwork/skill-ab-eval",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -628,7 +623,27 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Daan75002/atome-lm",
+      "id": "github:d-kimuson/dev-process-kit",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:D-sorganization/UpstreamDrift",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:dadgrand/answerdesk",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Daegu-Cyber-University/ModuWeb",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:dancxjo/conduit",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -643,12 +658,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dariero/VerdigrisE",
+      "id": "github:daniil4545/pii-scrub",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:datagouv/datagouv-mcp",
+      "id": "github:datachain-ai/datachain",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
@@ -658,44 +673,24 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:DataNivra/datanivra-examples",
+      "id": "github:dcondrey/general-automation",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:davidjosipovic/scigraph-rag",
+      "id": "github:decimal-labs/decimalai-python",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dburke364/react-native-transformers",
+      "id": "github:decitre/lmlite",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:deedglass/deedglass",
+      "id": "github:deepset-ai/haystack",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Deeksha412-c/docuaudit",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:DeepaChevalier74626/qwen38-flash-next-2x3090",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:deepgram/deepgram-python-sdk",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:deepgram/deepgram-rust-sdk",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "missing-description"
     },
     {
       "id": "github:deepset-ai/haystack-core-integrations",
@@ -703,7 +698,7 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:defos-ai/commander",
+      "id": "github:DEERAJ271/PulseFlow",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -713,132 +708,97 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Deshraj-Jogiya/AI-Model-Observability-Auditing",
+      "id": "github:dengxianghua888-ops/preference-lab",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Deshraj-Jogiya/job-market-lakehouse",
+      "id": "github:DenisShumilov/uav-readiness-evidence-copilot",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dev-hashemi/pkmrag",
+      "id": "github:Denromvas/nigredo",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:DEZ-byte/agent-reliability",
+      "id": "github:derdelean/cage",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:DhanushPillay/tx-recon",
+      "id": "github:Devangsinh84/risk-manager-for-pms",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dimitardamjan7-a11y/spec-flow-framework",
+      "id": "github:devTomaszStoklosa/fin-ai-lab",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:DimitriGeelen/agentic-engineering-framework",
+      "id": "github:dgesteves/ondocs",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dimqsh/context-harness",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:divyanshuaggarwal/divyanshuaggarwal",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:dksslq/agent-go",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Dodaios/Dodaios",
+      "id": "github:DIAGNijmegen/rse-grand-challenge",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:Donghyuk0690/arkor",
+      "id": "github:dimitrilaouanis-tech/0n1x",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Donghyuk0690/token-saver",
+      "id": "github:dl1683/stateful-codex",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dongshu710/doc-qa-assistant",
+      "id": "github:dnotitia/akb",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
+    },
+    {
+      "id": "github:docushell/ethos-parser",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:dreamference/mightling",
+      "id": "github:dolthub/dolt",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:dromerosm/tiny-robotics-bots",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:drhelius/Gearcoleco",
+      "id": "github:dstackai/dstack",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:drhelius/Geargrafx",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:drhelius/Gearlynx",
+      "id": "github:dylanma8232-art/daming-skillgain",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:drhelius/Gearsystem",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:drhelius/Geartowns",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:dsjwong/hkia-delay-predictor",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:dubeykrish0307/sevrin",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:dubianche123/agenticx-document-review",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ducdinh-codehub/ai-forge",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:durable-workflow/durable-workflow.github.io",
+      "id": "github:eaststandart/eaststandart.github.io",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
       "id": "github:EdgarSocrates98/forge-doctor-data",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:EdgarSocrates98/spark-forge-aws",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -853,12 +813,32 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:edward3s/promptvoice",
+      "id": "github:edjafarov/kiagent-core",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:EigenformAI/afterlife",
+      "id": "github:EdwinSotto123/vigia-peru",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:effecet/memory-persistor",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:elcoosp/kod",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:elfovo/agent-chain-doctor",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:EllE961/TextProcessor-EllE",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -873,7 +853,27 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:EmilianoMJ11/transformers-training-recipes",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:emmyledger/noether-walk",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Enping-Hu/minimind-deep-dive",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:eole-nlp/eole",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:Erseni/secrets-component",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -888,14 +888,19 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:EverMind-AI/EverOS",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
       "id": "github:evgeniimatveev/evgeniimatveev",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:exmergo/dex",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:EvolvingAgentsLabs/evolving-agents",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:expruff/asya-chat-ui",
@@ -903,17 +908,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:fabrianivan/nexora",
+      "id": "github:faizanbinkamran/android-orchestra",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:faisalmumtaz89/Lumen",
+      "id": "github:falke-ai-circuit/hermes-router",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:faizanjutt473/AskMyPDF-RAG-Chatbot",
+      "id": "github:FalkorDB/FalkorDB",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
+    },
+    {
+      "id": "github:Fame510/SHACKLE",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -928,27 +938,27 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:fastocr-org/fastocr-python",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:FB208/OpenBidKit_Yibiao",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:feichai0017/orbitkv",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:FeixueCode/miaoclaw-releases",
+      "id": "github:felipecm-br/nerdsight",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:felladrin/MiniSearch",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:felipesauer/mnema",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:flameblade-studio/MoHan-PC-Desktop-Assistant",
+      "id": "github:fknoerzer/anlagen-copilot",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -958,22 +968,37 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:forgetheworlds/metal-drone-nav",
+      "id": "github:fma00/synthea-readmission-risk",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:FOURTEEN1416/k9-training-system",
+      "id": "github:framerslab/agentos",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:francisown/8gb-llm-inference-delivery",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:fujingxuan/ocr-document-converter",
+      "id": "github:furedea/reflex-state",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:fyzhang1/FocusGUI",
+      "id": "github:furuse-kazufumi/fullseye",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:fyj1233/paper2ledger-ai",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:gameplayerroblox9-cmyk/RoNet-BPE-Tensor-Forge",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -988,79 +1013,59 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:gbtweilai-star/GBTxiaotudouV8-Commander",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:gchq/Bailo",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:geer1895/rfauto",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:geisten/geistlib",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:generative-computing/granite-switch",
+      "id": "github:genkit-ai/genkit",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:genfeedai/genfeed.ai",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:GeoffMillerAZ/fathom",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:getbroccoli/broccoli",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:giovannifil-64/oxydllm",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:GiulioDER/RE-call",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:gonicolas12/My_OS",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:google-deepmind/mujoco",
+      "id": "github:ggozad/haiku.rag",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:googlecloudrobotics/core",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:gosvig123/gappd",
+      "id": "github:giantswarm/search-mcp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:goyohan0611-png/graph-mind",
+      "id": "github:gmodrasa7-rgb/project-intersection-public",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:grobidOrg/grobid",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:gmoretti03/GWOSC",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:GonzaloFuentes1/auto-lab",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:Grulmex/UFund-Me-Qbot",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:guardana/guardana",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:Gunnarguy/OpenIntelligence",
@@ -1073,17 +1078,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:hajarmrifag/cuda-transformer-kernels",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:hajarmrifag/neobank-growth-analytics",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:hamidoubodian21-netizen/ai-engineering-production",
+      "id": "github:hamadou-08/roboclaw-reports",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1093,42 +1088,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Hans28617/py-idp",
+      "id": "github:hanyeol/model-compose",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:Harivathsha/ros2-hybrid-ppo-navigation",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:hao-ai-lab/uniserve",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:haoxiang-xu/PuPu",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:harry7557558/spirula-studio",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:harshilmathur/sparklab",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:harvs-phoenix/shhdock",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:HaseebKhalid1507/Axon",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Havensky-stack/ninfer-strata-router",
+      "id": "github:Hashim57/olo-commons",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1138,19 +1108,14 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:HeadcountLabs/data-engineer-jobs",
+      "id": "github:hcltech-robotics/simreadybench",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:henk88801/knowledgeops-agent",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:heymrun/heym",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
+      "id": "github:heypinchy/pinchy",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:hidatara-ds/evolipia-radar",
@@ -1158,42 +1123,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:hkaramanlis41141/atome-lm",
+      "id": "github:hjongc/openrouter-endpoint-watch",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:HKUDS/nanobot",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:HMKKurararara/conditional-compute-routing",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:hogomex393-svg/campusbank-ai-portal",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:HolobiomicsLab/Mimosa-AI",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:holylong/luban",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:hongfaqiu/strata-manager",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Horst952/TuneKit",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:howard2100/py-idp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1203,14 +1143,9 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:hqhq1025/ai-course-notes",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
-    },
-    {
-      "id": "github:hudasol/dune-rover",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:htobty/ReadyLLM",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:hudasol/post-quantum-security",
@@ -1223,12 +1158,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:hwdsl2/parsecrate",
+      "id": "github:huggingface/optimum-intel",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:huggingface/peft",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:humane-intelligence/hi-oss-ai-red-teaming",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:hxush158/chemq",
+      "id": "github:hwdsl2/parsecrate",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1238,27 +1183,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ikokougochukwu69-glitch/llm-eval-kit",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ilan4ever/Dflash-Console",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:IliasAlmerekov/aegis-shellguard",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:ilyafefelov/Diploma",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:iMMIQ/orinfer",
+      "id": "github:imattau/crms",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1266,6 +1196,16 @@
       "id": "github:ImWuMie/wear-agent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:IncarnaMind/IncarnaMind",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:Indras-Mirror/Xolotl",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
     },
     {
       "id": "github:infiniflow/ragflow",
@@ -1278,42 +1218,52 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:InnokentyB/contentops-studio",
+      "id": "github:inhere/gofer",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:intel/auto-round",
+      "id": "github:intent-hq/intent",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:ipccheng/NX-Shield-RAG",
+      "id": "github:InternLM/lmdeploy",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:InternLM/xtuner",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:inth3shadows/runecho",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:itsHendri/Shhhcribble",
+      "id": "github:invergent-ai/surogate",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:itishree528/smartInsight",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:iyulab/FluxImprover",
+      "id": "github:itsjonasarden/saturn",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Jackxiaozhiren/datasentry",
+      "id": "github:itsmeadarsh2008/opencode-senses",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Jacques5843/py-idp",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:jaehyeon-kim/desflow",
+      "id": "github:Ivanow/llama_panel",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1323,37 +1273,37 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:jakubkarahan471/py-idp",
+      "id": "github:Jane-o-O-o-O/Agent-CAD",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:JamesLeeCY/paper-rag-copilot",
+      "id": "github:JasonZhang109/llm-inference-systems-book",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:JeremiahM37/robowright",
+      "id": "github:jasp402/HyperCodeMotion-MCP",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:JeremiahShadams/Citer",
+      "id": "github:jaxon-rileycombs/MSBA-course-assistant",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:jf1shh/claims-rag",
+      "id": "github:JeronimoRepetto/DwarfAI-Miners",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:jiajiachen/mcd-mcp-skills",
+      "id": "github:jimoto-no-llm/rustdsh",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:jingzhao-l/iterate-skill",
+      "id": "github:jiyasiwach/cropwise",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1363,7 +1313,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:jmouadh/charara",
+      "id": "github:johalputt/SENVORYN-OS",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1373,32 +1323,42 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Josia-doit/ComfyUI_JosiaNodes",
+      "id": "github:joshuafolkken/kit",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:jposluns/grc_library",
+      "id": "github:jostrm/azure-enterprise-scale-ml",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Juanelpeor3/infinite-monkey",
+      "id": "github:JuanSPZ/agent-ready-index",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:JudithRamos88018/Awex",
+      "id": "github:JYoung-devs/qwen3-8b-local-chatbot",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:justusewaldo/waldo",
+      "id": "github:k-sandhu/experiment-notebooks",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:kamisaberi/xinfer-forge",
+      "id": "github:kaifaty/GothicAI",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:kaiserg/odyssey-7",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:kakkarprerna/daily-ai-builds",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1408,9 +1368,9 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:kansei-link/kansei-mcp-server",
+      "id": "github:kanton-bern/hellodata-be",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:karina2256/dsh-codex-excellent-slider",
@@ -1418,17 +1378,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:KartekeyaanRaghavan/mtech-thesis-web-exploit-slm",
+      "id": "github:Kavayk29/Speech-Recognition-using-TDNN-and-Data-Augmentation",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:katerinahwang85508/VectorRAG.Net",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:katherinehashimoto3296/vibe-learn",
+      "id": "github:kekzl/imp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1438,19 +1393,24 @@
       "reason": "metadata-gates-passed"
     },
     {
+      "id": "github:kevinx-key/AI_Voice",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:kexijiang/Piora",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Kiln-AI/Kiln",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
-    },
-    {
-      "id": "github:KohakuPatel40540/Awesome-Multimodal-Agent",
+      "id": "github:kgorle1111/permission-aware-rag",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:kimtth/software-architect-mindmap",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:KongFangXun/sofagent",
@@ -1463,34 +1423,44 @@
       "reason": "metadata-gates-passed"
     },
     {
+      "id": "github:KorolevaChiana/FiveText",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:kovacova-teaching/visual-search-rag-genaiops",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:KPO-Tech/seshat-runtime",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:ktwu01/benchmark-radar",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:kubernetes-sigs/lws",
+      "id": "github:kubeflow/pipelines",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:LacerdaTraderCode/rag-knowledge-assistant",
+      "id": "github:kuutti-ry/kuutti-app-demo-photos",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:lachtarnour/OrthoTwin3D",
+      "id": "github:L3viathan/veronique",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Lambert2984/Train-in-Silence",
+      "id": "github:lachlanchen/LazySkills",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:laminlabs/lamindb",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:lance-format/lance",
@@ -1503,12 +1473,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:LaplacianAI/openarity",
+      "id": "github:lattifai/awesome-EmbeddingGemma",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:latent-horizon/pytorch-world",
+      "id": "github:leehack/llamadart",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1518,52 +1488,37 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:leon-ai/leon",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:leon1111-wgl/loopdesk",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:lgxgizh/mviewer",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:LHagfoss/rustcode",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:lifeidle/qwen3.8-flash-next-5090-laptop-24gb-strata",
+      "id": "github:lienhoatienphung-svg/x402-base-paywall-sdk",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:linny006/agent-framework-radar",
+      "id": "github:lieren2012/indra-ocr-api",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:linny006/awesome-agent-skills",
+      "id": "github:lightly-ai/lightly-studio",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:LijiAlex/codepilot-agent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:linny006/claude-code-plugin-tracker",
+      "id": "github:limeflash/yadacall",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
       "id": "github:linny006/cursor-rules-live",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:linny006/llm-agents-radar",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1578,24 +1533,9 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:linny006/mcp-servers-live",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:linny006/rag-radar",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:linny006/skills-tracker",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:linny006/trending-claude-skills",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:Listener-ai-Macau/Listener-Type",
@@ -1603,22 +1543,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:liuyingbiya/kaoyan-review-assistant",
+      "id": "github:liulx25xx/DoubleTakeBench",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:lordaashishh/tf-nlp-modern-stack",
+      "id": "github:lobehub/lobe-tts",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:LocketKeyLLC/scaffold-engine",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:LouisMills5498/qapyq",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Lugia123/polter",
+      "id": "github:luandapipi91/Wa-PiAgent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1628,12 +1568,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:lvyufeng/PocketLLM",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:lygsam75-buddy/intel-arc-local-ai",
+      "id": "github:lulu38m/precog-macos",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1643,27 +1578,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:m-ymn/RAG_App",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:madhavan347/project_alfred",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:magnusfroste/garageai",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Makarand-Kulkarni1/crypto-regime-monitor-project",
+      "id": "github:MakazhanAlpamys/Soup",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:managedcode/LlmTestServer",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:managedcode/LlmTck",
+      "id": "github:ManikantaPerla07/zero-shot-industrial-defect-detection",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1673,7 +1603,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:mappings-1cheer/DeepfakeStudio-Ultimate-Collection-2026",
+      "id": "github:manjunathshiva/turboquant-mlx",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:ManosSanoudakis/legal-document-extractor",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:manwestc/manwestc.github.io",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1683,47 +1623,57 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:maref-org/maref",
+      "id": "github:mario-melo-data/bigdata-image-pipeline-spark-gcp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Marker-Inc-Korea/AutoRAG",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:MarkParker5/STARK-PLACE",
+      "id": "github:MarkDanile/MetaEduBase",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:martinherje/legality-probe",
+      "id": "github:MartinPdeS/DeepPeak",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:maurinruneacco/luau-diagrams-and-defects",
+      "id": "github:Matlan1/localm",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:maxgfr/secretgate",
+      "id": "github:matthewjones372/winning-ticket-search",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:maximyudayev/hermes",
+      "id": "github:Mau-Q/Finetune-DataFlow",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:MaxKharlan/next-experiment",
+      "id": "github:MaverickLBP/cortex",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:mayanklahre/Virtual-Try-On",
+      "id": "github:MaxonT/top-ai-agent-guardrails",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:MaxonT/top-open-weight-coding-models",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:maxsitt/insect-detect-post",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:mc-agents/mcp-server",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1733,27 +1683,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Md-Emon-Hasan/All-LLM-Fine-Funing-Methods",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:Medialoco/ventoux-watch",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:mehmetbulutaktas458-dev/Aozora-Forge",
+      "id": "github:medicaldoctor91/doctor-ghezelbaash",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:memtomem/memtomem",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:messagebird/n8n-nodes-bird",
+      "id": "github:Mefju98/grant-inbox-copilot-projekt-portfolio-ai",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1763,22 +1703,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:metask-ai/metacodes",
+      "id": "github:michaelegner/architecture-intelligence-platform",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:MichaelVandenberg80476/atome-lm",
+      "id": "github:MiguelCarino/Aldis-Lamp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:microsoft/agent-governance-toolkit",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:mii-llm/palingenesis",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Mikhail48848/dsh-crew",
+      "id": "github:mikeprasad/aria-knowledge",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1788,22 +1728,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Milomilo777/whisper-transcriber-suite",
+      "id": "github:MimiQuark/Industrial-Defect-Multimodal-Pipeline",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:mindmuxai/brain.md",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:Mir-Zairan/shoga-speaks",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:mirza267/DuQuant",
+      "id": "github:Mingbird/Mingbird-agent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1818,19 +1748,14 @@
       "reason": "missing-description"
     },
     {
-      "id": "github:mll-lab-nu/embodied-first-exam",
+      "id": "github:mloda-ai/mloda",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:mmporong/factory-ops-twin",
+      "id": "github:mnusurov/pi-llm-queue",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ModelCloud/GPTQModel",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:modelscope/ms-swift",
@@ -1838,24 +1763,34 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:modelship-ai/modelship",
+      "id": "github:MongLong0214/jev-gate",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:MohammedEl-sayedAhmed/sedjem",
+      "id": "github:monochrome-muncher/hivemind",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:MomoSuzuki82/qwen38-flash-next-2x3090",
+      "id": "github:moretea-labs/forge",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:moxuezhuchen/ConfFlow",
+      "id": "github:MoriartyPuth/neam",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:morluto/rea",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:mrdjohnson/llm-x",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:MrPeppersDev/agent-infrastructure-landscape",
@@ -1863,17 +1798,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:mrw-soumik/mrw-soumik.github.io",
+      "id": "github:MSKazemi/yazses",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
       "id": "github:mstar-project/mstar",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:mughalhere/prompt-protection",
+      "id": "github:MubeenAmjad205/image-to-excel",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1883,12 +1818,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:musanyaks/musanyaks.github.io",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Muvon/octobench",
+      "id": "github:Mulaudzi1/sme-sales-etl",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1898,37 +1828,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:myon-bioinformatics/SakAnalytics",
+      "id": "github:nasser1941/lcode",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Najongs/knowledge-vault",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:NamhyeonKo/obsidian-tag-ontology",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:NamNguyen511/visucv",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:NancyEsposito75585/syda",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Nano-Collective/nanocoder",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
-    },
-    {
-      "id": "github:Nbit-51/Leaf",
+      "id": "github:nayrosk/overbrainer",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1938,17 +1843,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:nebuko/nebuko",
+      "id": "github:nekyialabs/resonant-mind",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:NetCore-Technologies/AXIOM-AI",
+      "id": "github:neomjs/neo-agent-brain",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:newfpv/NexusTG",
+      "id": "github:nettanvirdev/simple_rag",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1958,37 +1863,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:newton-physics/newton",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:NexaEthos/nexa-bridge",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:NextTokens/lblm",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:NeyorDEV/J.A.R.V.I.S",
+      "id": "github:ngu-gif/genai-role-playbook",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:nfdi4health/syndat-dashboard",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:nhvang/kubeflow-python-orchestrator",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Nicholasa79806/VL-Rethinker",
+      "id": "github:NguyenVanKhai2412/Camera-UWB_Radars-Fusion-VitalEstimation",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -1998,69 +1883,49 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:nikolai-vysotskyi/trace-mcp",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
       "id": "github:NikolaiSachok/ai-engineering-handbook",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:nishantparwani/Avatarquest",
+      "id": "github:Ninnix/q36",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Nita2401/token-saver",
+      "id": "github:NISD2/open-isms",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:nk3843/job-market-dashboard",
+      "id": "github:NoBanks/debate-desk",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:nmbambo/nmbambo.github.io",
+      "id": "github:noclickapp/noclick",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:nmorgowicz-org/local-llm-foundry",
+      "id": "github:nolotus/nolo",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Noelune/unified-agent-memory",
+      "id": "github:Nonarkara/vision",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:noruzzamans/gslider-blocks",
+      "id": "github:ntoantoan/depthpro-mlx",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:notinferred/keypaste",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:novain-shibu/unshape",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:nullsetlabs/vex-visualizer",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Nutshell2000/agent-data-tools",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:NVIDIA-AI-Blueprints/video-search-and-summarization",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "missing-description"
     },
     {
       "id": "github:NVIDIA/Megatron-LM",
@@ -2068,17 +1933,17 @@
       "reason": "license-metadata-unavailable"
     },
     {
+      "id": "github:OAIWEB/andreich",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:objectstack-ai/objectui",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:officialcodenaut/BoardCheck",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ognjenmarcheta/kaine-forge",
+      "id": "github:ohdearquant/khive",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2088,14 +1953,14 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:OlivierMemon/atome-lm",
+      "id": "github:olchu/flowType",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:OmniJev/awesome-jev-gallery",
+      "id": "github:Omerfaruk-aydn/Atlas-Agent",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:OmniJev/OneJev",
@@ -2108,12 +1973,17 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:on-par/software-factory",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:onestardao/WFGY",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:OnurWeber373/syda",
+      "id": "github:onyekachiejimofor/asterbridge-ai-response-evaluation",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2123,12 +1993,32 @@
       "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:open-edge-platform/geti",
+      "id": "github:oobg/claude-code-mods",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:oomkapwn/enquire-mcp",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:oomol-lab/open-flow",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:OpenTokenMini/opentokenmini",
+      "id": "github:open-metadata/OpenMetadata",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:openbkn-ai/bkn-studio",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
+    },
+    {
+      "id": "github:OpenMachineLabs/openmachine",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2138,17 +2028,7 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:opum-ai/lore-cli",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:OrakulStudio/AI-Toolkit-Windows11",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Orkeon/orkeon",
+      "id": "github:ori-platform/ori-runtime",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2158,17 +2038,27 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:OsmanAhmedKhan/amalda-backend",
+      "id": "github:orocoa/Ariadne",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ottto-ai/ottto",
+      "id": "github:oskarko/mario-vs-word-monsters",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ozcancelik/harfiyen",
+      "id": "github:overmind-core/overmind",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:p95labs/ifa",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:pablocaeg/sloptotal",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2178,19 +2068,19 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:patronus-protect/decision-model-guard",
+      "id": "github:PatrickWiloak/ai-zero-to-hero",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:pegainfer-project/pegainfer",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:pavsefcik/marv",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:perfectgf/lora-dataset-studio",
+      "id": "github:petkyletampu28-a11y/tasknet-multitask",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:PetroProg/AI-news",
@@ -2198,12 +2088,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Peuqui/STT-Suite",
+      "id": "github:pgkiln/pgkiln",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:phlohouse/phlo",
+      "id": "github:Photon-Commerce/photon-invoice",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:pictograph-io/pictograph-sdk",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:PierreTsia/workout-app",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2218,12 +2118,27 @@
       "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:pipulate/pipulate",
+      "id": "github:pipeshub-ai/pipeshub-ai",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:plur-ai/plur",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:PMSLLC/gophermind.com",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:pjordanandrsn/experts4bit-qlora",
+      "id": "github:pnnnx/loca",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:pnnnx/local-code-tutor",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2243,27 +2158,17 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:pouyapd/GroundedAI",
+      "id": "github:poppycoderr/grounded-access",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:pragyaangaur/Just-Think",
+      "id": "github:Positronic-Robotics/positronic",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Prajwal-Reddy25/robotics_vision_training_pipeline",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Pranjal677504/Inquest",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Prathmesh2000/frontdex-mcp",
+      "id": "github:praise2112/autoregressive-text-classification",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2273,32 +2178,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:privacyfence/privacyfence",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:PrismorSec/prismor",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:procrastinine/natter",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:professor3333/ProtocolLedger",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:professor3333/TriggerMap",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Prometheus-AGS/prometheus-skill-system",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Prometheus-AGS/prometheus-skills-mini",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2308,12 +2193,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:PT-Perkasa-Pilar-Utama/ppu-indra-ocr",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:qa-test-automation-frameworks/verity-policy-coverage-eval-framework",
+      "id": "github:pt9912/ai-harness-init",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2323,7 +2203,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Quat3rnion/bf16-to-hgn",
+      "id": "github:qishuilalala/dsh-voice-mode",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2338,12 +2218,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:qwertymuzaffar/parrot",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:QwenAudio/qwen-audio-agent",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:R-creater-vs/trialroom",
+      "id": "github:qxchuckle/lattice",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2353,12 +2233,27 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:R4255/converse",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:raghavendrashivam474/Aryntra-ContinuumX",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ragna-ai/ragna-studio",
+      "id": "github:ragleap/ragleap-core",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:rahatarch/brud",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:RahimAbbas55/FlowRadar",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2368,12 +2263,27 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:rashmitha-j/DocuMind-AI",
+      "id": "github:Raj-Taware/collusion-net-influence",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Ratio1/edge_node",
+      "id": "github:rajveer43/VeloxQuant-MLX",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Ranbirkumar26/Ranbirkumar26.github.io",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:rapiddweller/datamimic",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:raulcastar/GNC-Moon-Simulator",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2388,27 +2298,27 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Rayenthestrongest/wifi-spectre-mcp",
+      "id": "github:raullenchai/Rapid-MLX",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:redis-developer/shopping-ai-agent-langgraph-js-demo",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:ray-project/ray",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:redrob-labs/redrob-canvas",
+      "id": "github:redpanda-data/connect",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:redrob-labs/redrob-shape",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:rehantheorylab-pixel/kilochat",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:rellytechgame/Reverse3D-tool",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2418,27 +2328,12 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:ReSerendipity/TTS-MultiModel",
+      "id": "github:rexleimo/aios",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Resource-Hacker/obsidience",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:rezearcher/x402-data-api",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:RicePiggy7/xiaoA-RAG",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:richawo/Design-components-for-AI-agents",
+      "id": "github:rezaxr14/Recap",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2448,24 +2343,24 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:Riper21/ScanReader",
+      "id": "github:rknightion/synthkit",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:risadams/Janus",
+      "id": "github:rmedipallycic/llm-inference-fault-tolerance",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Robert8419/vibe-learn",
+      "id": "github:robhunter/agentdeals",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:rocky-data/rocky",
+      "id": "github:Robin-1978/lost-signal",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "missing-description"
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:rogerbucks/thoughtknot",
@@ -2473,57 +2368,57 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:rohitg00/ai-engineering-from-scratch",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
       "id": "github:rokartur/agent",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:RongNianXin/ChatGPT-Workflows",
+      "id": "github:ronb1964/TuxTalk",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:rongxinzy/RongxinAI",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
+      "id": "github:rootflo/wavefront",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
     },
     {
-      "id": "github:rore/Pallium",
+      "id": "github:Round-Tower/M1K3",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:rossoctl/context-guru",
+      "id": "github:ruhalis/Isaac-L2F",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:rtcode337/chiezo",
+      "id": "github:ruokokoski/metabolic-NN",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:RuMemory/maxgraph",
+      "id": "github:saeidi-mohammadreza/pg-fastread",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ryanduguid/llm-tax-guardrails",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Ryanhuhut/R7TKeysX",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:RZfive/WorldBase",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:Sage-is/AI-UI",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:sagiba/fonds",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:sagittariuswilliam/enterprise-rag-kb",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2533,27 +2428,42 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:saiganesh47/mlens",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:SalahAlHaismawi/nuqta-ocr",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:salimfk619-jpg/open-ai-ecosystem",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Samsung/qaboard",
+      "id": "github:salimz-arch/tsf-market-analytics",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:samuelkoch88/DuQuant",
+      "id": "github:Sameer8549/Sameer8549",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:SamuelSupe/graphdb",
+      "id": "github:samikuikka/apo",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sAnct1x/Arelis",
+      "id": "github:SamratDuttaOfficial/WaterSheep",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:samugc/FinRAG",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2563,104 +2473,74 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sattyamjjain/agent-audit-kit",
+      "id": "github:scbrown/camayoc",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sbartlett97/self-organising-transformer",
+      "id": "github:scbrown/seeds",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:SCAI-BIO/syndat",
+      "id": "github:sciencebanda09/topoloka",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:screenpipe/screenpipe",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "license-metadata-unavailable"
-    },
-    {
-      "id": "github:sebastienb37786/Train-in-Silence",
+      "id": "github:scientistayat-engineer/smarttask-ai",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:SecureCloudGroup/SmartBrain_3000",
+      "id": "github:secure00110/ai-geoparts-store",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:semantica-agi/semantica",
+      "id": "github:sehoon123/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks-Tuned",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:SemiAnalysisAI/InferenceX",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:sepahead/sepahead",
+      "id": "github:senlinlangqian-png/muzhun",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sepehrkeyhani00/bashoor-ai-menu",
+      "id": "github:seoan1024/Hanok-LLM",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sergeiroussel2485/py-idp",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:setopic/graph-doc-template",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Sevdaakari/rag-from-scratch",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:shaad4/relay-workflow-automation",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Shadowell/Shadowell",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ShahadatTest/fluxora",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Shard/WrathBench",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:SharmaAntriksh/ContosoForge",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Shen-Ming-Hong/singular-blockly",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:shilabi0127-cmd/zachyun",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:shootthesound/Fizgig",
+      "id": "github:sgl-project/sglang-omni",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:shahabajsk/grounded-triage",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:shaocuirong/dsh-vcontext",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:shashankh3/aether-pitch",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Shreya20002/Glossa",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:shuvanon/Federated-Learning-System",
@@ -2668,22 +2548,47 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:simoneh4335/Awesome-Multimodal-Agent",
+      "id": "github:siddhant-kishore-28/logfire-transformers-bridge",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sizzlecar/ferrum-infer-rs",
+      "id": "github:siddsachar/row-bot",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:sikaluobu/rag-bge-faiss",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Skydeke/curobov2_ros_manipulation_pipeline",
+      "id": "github:sileod/tasknet",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:skyelan1999/aide",
+      "id": "github:SK-DEV-AI/codesearch",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:SK-DEV-AI/websearch",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:SleezyBear/InferenceOS",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Sma1lboy/rove",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:smart-village-solutions/smart-speech-flow",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2693,7 +2598,22 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:SneppX/sneppx-alg",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:soentkeblindow/day-ahead-forecast-live-ops",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:software-mansion/runntime",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:SoheilGtex/finance-data-pipelines",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2703,7 +2623,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Songhonglei/better-office-work-flow",
+      "id": "github:solid-ai-dev/solid-ai-templates",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:songjialei-s/english-audio-notes",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Soum-Code/agentpulse",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2713,7 +2643,27 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:sparna-git/shacl-play",
+      "id": "github:sparkainlp-x/claims-layer",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:sparkainlp-x/digital-to-wave-cseq",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:spate-etl/spate",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:spicysharkco/chess-sim2real-benchmark",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:sqlew-io/sqlew",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2723,17 +2673,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ssciwr/AMMICO",
+      "id": "github:sriinnu/tokmeter",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ssriramhere/samskritam",
+      "id": "github:srikanthkakumanu/do-rag",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:stancsz/sift",
+      "id": "github:srikar08/inspect-ai-vision",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2748,14 +2698,29 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:SteCiu01/Fabric-Agentic-Workspace-One-Click-Setup",
+      "id": "github:StephaneBerthoz/sandforge",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:StephaneBerthoz/sandforge",
+      "id": "github:stevyhacker/LokalBot",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:sthamann/veyndo",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Sthymuli/website",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:straff2002/OpenGlasses",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:StudioFoysal/RiddleGen-FineTuned-GPT2",
@@ -2763,14 +2728,34 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:suih29993-cmd/multi-store-operations-dashboard",
+      "id": "github:Sudharsanselvaraj/Token-Print",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:sunny-kavixo/LittleLess-AI",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Surajj-00/Cyberbully-Detection-Transformer-Model",
+      "id": "github:superdocsapp/superdocs-builds",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:superdocsapp/superdocs-plugin",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:superlinked/sie",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:superplanehq/superplane",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "license-metadata-unavailable"
     },
     {
       "id": "github:Suryadimerantikab/Pennywise-Content-Curator",
@@ -2778,9 +2763,9 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:syberx/AI-Paperless-Organizer",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "id": "github:swapnildahiphale/OpenSRE",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
     },
     {
       "id": "github:sylvesterkaczmarek/autonomyfit",
@@ -2788,87 +2773,122 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tachyon-ops/library-of-alexandria",
+      "id": "github:talonicdev/talonic-mcp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:takeda545/syda",
+      "id": "github:tap222/assay-evals",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tannergolden/intelligence",
+      "id": "github:tara-vision/taracode",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:TanStack/ai",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:Tarun995/Within-Context-Attention-Phase-Transition-Analyzer",
+      "id": "github:tara-vision/taraengine",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Telschow/contested-nav",
+      "id": "github:tatopenn-cell/Dense-Armor",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tember40/Backbone_tester_CNN_Transformer",
+      "id": "github:TeamLite-DeepCybo/lite-record_replay",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tesserix/document-intelligence",
+      "id": "github:TeaTisaj/breeding-smarter",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tetherto/qvac",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:tetsuo-ai/agenc-core",
+      "id": "github:TechnikWeber/YonderRC",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:the1truedan/ai-gateway",
+      "id": "github:Tejashree-Likhar/Domain-RAG-assistant-with-a-proper-evaluation-harness",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:thomasdupont32/dsh-crew",
+      "id": "github:Teknesyum/Teknesyum-Core",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:thorwhalen/ocracy",
+      "id": "github:terramentis-ai/terraqore-studio",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tiensdattnek-ai/math-ai",
+      "id": "github:ThakiCloud/thakicloud.github.io",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tinylabscom/mvm",
+      "id": "github:ThanhNguyxnOrg/LayoutLingua",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tobiaswahlund/BrickSort",
+      "id": "github:TheMEGALODON55681/clauseanchor",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tobymarks/inlaut",
+      "id": "github:thetahealth/mirobody-env",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:thetahealth/mirobody-gen",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:ThreadSenatorDoor/image-upscaler-ai-enhancer",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:timoncool/speech-studio",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:timoncool/VoxCPM2_portable-pinokio",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:tinyhumansai/tinyflows",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:tinyhumansai/tinyinference",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:tinyhumansai/tinymemory",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:tjirab/tff",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:Tobillicious/universal-protection-theory",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2878,22 +2898,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tonydzi/pyvulnpatch-probe",
+      "id": "github:tonykfr1234/superlive-ai-monitor",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tonydzi/secondop-panel",
+      "id": "github:tonythetiger168/helioslm",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:tonydzi/sqlite-graph-memory",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:tourhabk-ui/pos",
+      "id": "github:toxicwind/ranch",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2908,27 +2923,7 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:TsSerV/chapter-and-verse",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:TTheuPP/NLP-LLM-Orchestrator-FineTuner",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ttmens/ai-radar-wiki",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:tunedtensor/tuned-tensor-cli",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:turbobeest/modelspec",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2943,27 +2938,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:uhlive/python-sdk",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ultralytics/inference",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:ultralytics/ultralytics",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
       "id": "github:unslothai/unsloth",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:uzerkayat2004-gif/AI-Productivity-Flow",
+      "id": "github:urgap/urgap",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -2973,9 +2953,14 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:VecSzn/PolyStrata",
+      "id": "github:valeford-de/spacement-pvextent",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "missing-description"
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:vassiliylakhonin/agenda-intelligence-md",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
     },
     {
       "id": "github:VectifyAI/PageIndex",
@@ -2993,7 +2978,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:vibgrate/cli",
+      "id": "github:vicfei/awesome-agentic-ml",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:VictorNain26/catiche-monorepo",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3003,12 +2993,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:vippsas/agent-toolkit",
+      "id": "github:vikisingh23/neuraforge-ai",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Viqto0r/zames_pro",
+      "id": "github:vilmire/adhdev",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "metadata-gates-passed"
+    },
+    {
+      "id": "github:Vinix24/vnx-orchestration",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3018,22 +3013,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:vivek5200/sama",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:vllm-project/vllm-ascend",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
       "id": "github:vllm-project/vllm-omni",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:vmvarela/skills",
+      "id": "github:voktty/voktty",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3043,14 +3028,9 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:vortex-data/vortex",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:Voycepeh/FabricOps-Starter-Kit",
+      "id": "github:vstorm-co/agenticos",
       "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
+      "reason": "missing-description"
     },
     {
       "id": "github:vukrosic/qwen-lora-loss-selection-gsm8k",
@@ -3068,7 +3048,22 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Wbbb555/driving-safety-analytics",
+      "id": "github:wafaaBerrais/bankpilot",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:WahidSaeed/peft-code-eval",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:waylliam1988/codey",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:webdevsamran/local-ai-hardware-bench",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3078,7 +3073,7 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:whiteknightonhorse/APIbase",
+      "id": "github:wewe29/ai-prompt-enhancer",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3088,57 +3083,52 @@
       "reason": "insufficient-source-signal"
     },
     {
+      "id": "github:wild-edge/wildedge-python",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
       "id": "github:willdady/platypus",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:Windsander/Mebular",
+      "id": "github:WSE-research/KinGVisher-Knowledge-Graph-Visualizer",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:winstxnhdw/llm-api",
+      "id": "github:wyckit/mcp-engram-memory",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Wordpressistic/bridgistic",
+      "id": "github:xerj-org/xerj",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:xianyu-sheng/Xenon",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:wwoosshh/GeulPUv2",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:xerrors/Yuxi",
+      "id": "github:xLLM-AI/xllm",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:xiaosongxiaosong1111/NoticeAction",
+      "id": "github:XXXXXim/vectordb-rag",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:xlang-ai/OSWorld",
+      "id": "github:Yamz-Labs/kyojin",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:xLongLink/longlink",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:xorbitsai/inference",
-      "decision": "REVIEW_REQUIRED",
-      "reason": "metadata-gates-passed"
-    },
-    {
-      "id": "github:yagmur-cam/autonomous-vehicle-simulation",
+      "id": "github:yangbaiwan392-collab/relay-room",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3148,62 +3138,42 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:yeungtuzi/vllm-xtu-moe",
+      "id": "github:yashsindya2014-hash/frame-trace-mcp",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:ylight23/DocxHeaderExtractor",
+      "id": "github:ysr666/dsh-vision-router",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "missing-description"
+    },
+    {
+      "id": "github:yu234567/dsh-llamacpp-studio",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Yog-Sotho/Brainbrew",
+      "id": "github:yuan-phd/jevmark",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:Yog-Sotho/LLM-Sanitizer-Pro",
+      "id": "github:yuanweny1/MedConsult-Eval",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:yologdev/yoyo-gasp",
+      "id": "github:YuhuanStudio/Yunshu",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:youenn-creach/agent-command-center",
+      "id": "github:yunaremaia/aipr",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:YourAKShaw/CoMPaSS-prompt-framework",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:YuhaoYeSteve/embodied-data-generator",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Z-HG-master/qqchat-seg",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Zakharov539/dataformer",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ZaneLau/traclux-probe",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:Zanmmi/micro-agent-cli",
+      "id": "github:yuya0408/secom-defect-prediction",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3213,17 +3183,17 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:zauberzeug/rosys",
+      "id": "github:zauberzeug/nicegui",
       "decision": "REVIEW_REQUIRED",
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:zcxy-dev/fineframe",
+      "id": "github:zavaruev/voice_gateway",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:zenoutlabs/automation-proof",
+      "id": "github:zeenat28-ui/greencode",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3233,12 +3203,12 @@
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:zhaopq123/webnovel-mcp",
+      "id": "github:zhihengli-casia/Awesome-OCR-in-the-Foundation-Model-Era",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
     {
-      "id": "github:zhumeiyan/luoshen-o1",
+      "id": "github:zhixuli0406/DuDuClaw",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     },
@@ -3248,22 +3218,12 @@
       "reason": "metadata-gates-passed"
     },
     {
-      "id": "github:ZliY221/Offline-lake-warehouse-and-incremental-analysis-of-shared-bikes",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:ZliY221/Real-time-data-warehouse-and-business-analysis-platform-for-e-commerce",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
-      "id": "github:zor-cell/dart-tracking",
-      "decision": "REJECTED_BY_METADATA_GATE",
-      "reason": "insufficient-source-signal"
-    },
-    {
       "id": "github:ztcs-software/loach",
+      "decision": "REJECTED_BY_METADATA_GATE",
+      "reason": "insufficient-source-signal"
+    },
+    {
+      "id": "github:zyvorai/zyvor-gryvia-apple",
       "decision": "REJECTED_BY_METADATA_GATE",
       "reason": "insufficient-source-signal"
     }
