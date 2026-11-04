@@ -27,3 +27,8 @@ Registered Jakeschincariol/day-trader-skill and Jakeschincariol/instagram-agent-
 ## 2026-11-04 — Graphify public candidate intake
 - Added Graphify-Labs/graphify as an unreviewed GraphRAG/knowledge-graph source candidate in `data/manual_skill_candidates.json` (15 total queue records); public curated catalogue unchanged.
 - Upstream root Apache-2.0 license and Python dependencies were inspected at a metadata level; security, privacy and transitive dependencies remain unaudited. Do not auto-install or promote to reviewed public examples.
+
+## 2026-11-04 — New developer agent tools and Charlie Hills MCP discovery
+- `data/manual_skill_candidates.json`: added six verified upstream GitHub links: kalil0321/reverse-api-engineer, supabase/agent-skills, vercel/vercel, Yeachan-Heo/oh-my-claudecode, ChromeDevTools/chrome-devtools-mcp, msitarzewski/agency-agents. Graphify already queued; keep existing candidate and avoid duplicate. Queue now totals 21.
+- `data/external_mcp_article_sources_2026-11-04.json`: captured 14 publicly readable MCP official documentation links from Charlie Hills' article, separate from GitHub entries because its referenced official pages are not necessarily GitHub repositories. Other 28 items remain inaccessible without subscription; query tokens scrubbed.
+- No installations, secret access, database migrations, deployments, payment, browser automation, public promotion or source code execution. Root license metadata is not security clearance; all new candidates remain unreviewed HOLD.
