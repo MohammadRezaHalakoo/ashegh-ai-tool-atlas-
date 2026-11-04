@@ -1,0 +1,24 @@
+name: Executive runbook validation
+on:
+  pull_request:
+    paths:
+      - 'reports/automation/EXECUTIVE_RUNBOOK_2026-11-04.md'
+      - 'CLAUDE.md'
+      - 'AGENTS.md'
+      - '.github/workflows/executive-runbook-validation.yml'
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify runbook and continuity files
+        shell: bash
+        run: |
+          test -s reports/automation/EXECUTIVE_RUNBOOK_2026-11-04.md
+          test -s CLAUDE.md
+          test -s AGENTS.md
+          grep -q 'NO' reports/automation/EXECUTIVE_RUNBOOK_2026-11-04.md || grep -q 'No automatic' reports/automation/EXECUTIVE_RUNBOOK_2026-11-04.md
