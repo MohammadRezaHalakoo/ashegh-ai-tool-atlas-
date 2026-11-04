@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-11-04",
+  "note": "Manual intake only. Source links verified; no installation, execution, security audit, compatibility testing, endorsement, or public catalogue promotion.",
+  "items": [
+    {
+      "id": "github:Jakeschincariol/day-trader-skill",
+      "name": "day-trader-skill",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "proposed_category": "MCP, Skills & Plugins",
+      "tags": [
+        "finance",
+        "trading",
+        "agent-skills",
+        "market-analysis"
+      ],
+      "description": "Collection of eleven Claude skills for market chart scanning, news tracking, historical scenario analysis, and risk-related workflows. Intended primarily for US equities; not validated for Iranian gold/mazaneh markets.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "Financial outputs are not verified trading recommendations.",
+        "No execution or real-money deployment approved.",
+        "Review data provenance, dependency behavior, licensing, and regional compatibility before integration."
+      ]
+    },
+    {
+      "id": "github:Jakeschincariol/instagram-agent-skill",
+      "name": "instagram-agent-skill",
+      "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+      "proposed_category": "MCP, Skills & Plugins",
+      "tags": [
+        "content-creation",
+        "social-media",
+        "instagram",
+        "agent-skills"
+      ],
+      "description": "Thirteen Claude skills for Instagram reel scripting, captions, carousel planning, content audits, and repurposing; creator approval remains required before posting.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No platform publishing or account access validated.",
+        "Inspect tool behavior, data handling, licensing, and workflow permissions before installation."
+      ]
+    }
+  ]
+}
