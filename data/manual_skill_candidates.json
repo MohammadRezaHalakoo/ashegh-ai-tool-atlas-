@@ -319,6 +319,126 @@
         "Potential data exposure when ingesting sensitive repositories or enabling optional remote providers.",
         "No installation, external upload or credential access approved."
       ]
+    },
+    {
+      "id": "github:kalil0321/reverse-api-engineer",
+      "name": "Reverse API Engineer",
+      "url": "https://github.com/kalil0321/reverse-api-engineer",
+      "repository_url": "https://github.com/kalil0321/reverse-api-engineer",
+      "proposed_category": "API tooling",
+      "tags": [
+        "2026-11-04",
+        "github",
+        "agent-tooling"
+      ],
+      "description": "Capture authorized website workflows and API docs; avoid bypassing access controls.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Capture authorized website workflows and API docs; avoid bypassing access controls.",
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+      ]
+    },
+    {
+      "id": "github:supabase/agent-skills",
+      "name": "Supabase Agent Skills",
+      "url": "https://github.com/supabase/agent-skills",
+      "repository_url": "https://github.com/supabase/agent-skills",
+      "proposed_category": "Database / Agent Skills",
+      "tags": [
+        "2026-11-04",
+        "github",
+        "agent-tooling"
+      ],
+      "description": "Can advise database migrations; no live DB changes without approval.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Can advise database migrations; no live DB changes without approval.",
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+      ]
+    },
+    {
+      "id": "github:vercel/vercel",
+      "name": "Vercel",
+      "url": "https://github.com/vercel/vercel",
+      "repository_url": "https://github.com/vercel/vercel",
+      "proposed_category": "Deployment / DevOps",
+      "tags": [
+        "2026-11-04",
+        "github",
+        "agent-tooling"
+      ],
+      "description": "Deployment, tokens and billing require explicit permission.",
+      "license_claimed_by_upstream": "Apache-2.0",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Deployment, tokens and billing require explicit permission.",
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+      ]
+    },
+    {
+      "id": "github:Yeachan-Heo/oh-my-claudecode",
+      "name": "Oh My Claude Code",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "repository_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "proposed_category": "Coding Agents",
+      "tags": [
+        "2026-11-04",
+        "github",
+        "agent-tooling"
+      ],
+      "description": "Auto hooks and command execution need sandbox/security review.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Auto hooks and command execution need sandbox/security review.",
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+      ]
+    },
+    {
+      "id": "github:ChromeDevTools/chrome-devtools-mcp",
+      "name": "Chrome DevTools MCP",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "repository_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "proposed_category": "Browser Automation",
+      "tags": [
+        "2026-11-04",
+        "github",
+        "agent-tooling"
+      ],
+      "description": "Browser profiles, cookies, private tabs and debugging ports need isolation.",
+      "license_claimed_by_upstream": "Apache-2.0",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Browser profiles, cookies, private tabs and debugging ports need isolation.",
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+      ]
+    },
+    {
+      "id": "github:msitarzewski/agency-agents",
+      "name": "Agency Agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "repository_url": "https://github.com/msitarzewski/agency-agents",
+      "proposed_category": "Agent Skills",
+      "tags": [
+        "2026-11-04",
+        "github",
+        "agent-tooling"
+      ],
+      "description": "Agent prompt collections; individual instructions need review.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Agent prompt collections; individual instructions need review.",
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+      ]
     }
   ]
 }
