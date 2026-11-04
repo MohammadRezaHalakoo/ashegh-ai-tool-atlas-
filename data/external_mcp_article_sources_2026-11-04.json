@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "source_title": "42 Things to Install in Claude",
+  "source_url": "https://charliehills.substack.com/p/42-things-to-install-in-claude",
+  "accessed_date": "2026-11-04",
+  "public_article_count": 14,
+  "subscriber_only_items_not_claimed": 28,
+  "license_verification": "NOT_PERFORMED_FOR_SERVICES",
+  "note": "Only first 14 MCP services were publicly visible in article. These official service/docs links are not assertions of GitHub repository ownership. No subscription bypass, authentication, installation or endpoint connection performed. Query parameters/mcp tokens from user-provided URL deliberately omitted.",
+  "items": [
+    {
+      "name": "Notion MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://developers.notion.com/guides/mcp/get-started-with-mcp",
+      "category": "Knowledge / Workspace",
+      "endpoint_reference_only": "https://mcp.notion.com/mcp",
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Claude in Chrome",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://claude.com/claude-in-chrome",
+      "category": "Browser Automation",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Google Drive Connector",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://support.claude.com",
+      "category": "Cloud Files",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Gmail Connector",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://support.claude.com",
+      "category": "Email",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Figma MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://help.figma.com/hc/en-us/articles/39888612464151-Claude-Code-and-Figma-Set-up-the-MCP-server",
+      "category": "Design",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Metricool MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://help.metricool.com/how-to-connect-metricools-mcp-with-claude-0l84v",
+      "category": "Content Analytics",
+      "endpoint_reference_only": "https://ai.metricool.com/mcp",
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Higgsfield MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent",
+      "category": "Creative AI",
+      "endpoint_reference_only": "https://mcp.higgsfield.ai/mcp",
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "ElevenLabs MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://elevenlabs.io/docs/eleven-agents/operate/hosted-mcp",
+      "category": "Speech / Audio",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Google Calendar Connector",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://support.claude.com",
+      "category": "Scheduling",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Slack MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://docs.slack.dev/ai/slack-mcp-server/connect-to-claude/",
+      "category": "Team Collaboration",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Granola MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://docs.granola.ai/help-center/sharing/integrations/mcp",
+      "category": "Meeting Notes",
+      "endpoint_reference_only": "https://mcp.granola.ai/mcp",
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Apify MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://docs.apify.com/mcp",
+      "category": "Web Extraction",
+      "endpoint_reference_only": null,
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Perplexity MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server",
+      "category": "Search",
+      "endpoint_reference_only": "https://api.perplexity.ai/mcp",
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    },
+    {
+      "name": "Zapier MCP",
+      "kind": "official_service_documentation",
+      "official_documentation": "https://docs.zapier.com/mcp/get-started/quickstart",
+      "category": "Automation",
+      "endpoint_reference_only": "https://mcp.zapier.com/api/v1/connect",
+      "review_status": "LINK_DOCUMENTED_UNREVIEWED",
+      "security_gate": "NO_OAUTH_OR_EXTERNAL_CALLS",
+      "github_repo_verified": false
+    }
+  ]
+}
