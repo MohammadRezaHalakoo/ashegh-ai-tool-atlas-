@@ -18,3 +18,8 @@ Registered Jakeschincariol/day-trader-skill and Jakeschincariol/instagram-agent-
 - Added 12 user-supplied source links (11 distinct repository roots, including two Leonxlnx nested skills) to `data/manual_skill_candidates.json`. Queue now contains 14 source references including the earlier day-trader and Instagram entries.
 - Categories: YouTube production, UX/web design, brand image generation, prompt composition, video/motion, interactive anatomy. New references are `SOURCE_LINK_VERIFIED_UNREVIEWED`, not reviewed public catalogue items; public curated 24-example data remains unchanged.
 - No publication, account access, license verification, dependency execution or security approval was performed. Source commit `5af30034bbb7f9c69f605f0534970a593eaa75d2`. Keep review gates before promoting records.
+
+## 2026-11-04 — Limited license and supply-chain review of creative candidates
+- Reviewed selected upstream license files and manifests for 11 GitHub roots / 12 candidate links. Added root-license metadata and `LIMITED_STATIC_REVIEW_HOLD` flags to `data/manual_skill_candidates.json`; 14 candidates retained, public curated 24-example dataset unchanged.
+- Risks: Vercel mutable remote instructions and unconfirmed license; Remotion conditional commercial terms; OpenDesign executable postinstall; browser/cloud risk for Design Extract and HyperFrames. No license or runtime security approval issued.
+- No installation, full recursive dependency audit, CVE scan, SBOM, or integration test completed. External tooling remains review-gated. Private detailed report lives only in private registry and must not be automatically exported.
