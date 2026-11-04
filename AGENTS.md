@@ -23,3 +23,7 @@ Registered Jakeschincariol/day-trader-skill and Jakeschincariol/instagram-agent-
 - Reviewed selected upstream license files and manifests for 11 GitHub roots / 12 candidate links. Added root-license metadata and `LIMITED_STATIC_REVIEW_HOLD` flags to `data/manual_skill_candidates.json`; 14 candidates retained, public curated 24-example dataset unchanged.
 - Risks: Vercel mutable remote instructions and unconfirmed license; Remotion conditional commercial terms; OpenDesign executable postinstall; browser/cloud risk for Design Extract and HyperFrames. No license or runtime security approval issued.
 - No installation, full recursive dependency audit, CVE scan, SBOM, or integration test completed. External tooling remains review-gated. Private detailed report lives only in private registry and must not be automatically exported.
+
+## 2026-11-04 — Graphify public candidate intake
+- Added Graphify-Labs/graphify as an unreviewed GraphRAG/knowledge-graph source candidate in `data/manual_skill_candidates.json` (15 total queue records); public curated catalogue unchanged.
+- Upstream root Apache-2.0 license and Python dependencies were inspected at a metadata level; security, privacy and transitive dependencies remain unaudited. Do not auto-install or promote to reviewed public examples.
