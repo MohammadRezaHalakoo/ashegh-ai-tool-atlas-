@@ -41,6 +41,234 @@
         "No platform publishing or account access validated.",
         "Inspect tool behavior, data handling, licensing, and workflow permissions before installation."
       ]
+    },
+    {
+      "id": "github:Jakeschincariol/youtube-agent-skill",
+      "name": "YouTube Agent Skill",
+      "url": "https://github.com/Jakeschincariol/youtube-agent-skill",
+      "repository_url": "https://github.com/Jakeschincariol/youtube-agent-skill",
+      "skill_path": null,
+      "proposed_category": "Video & Content Creation",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for YouTube Agent Skill. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:emilkowalski/skills",
+      "name": "Emil Kowalski Skills",
+      "url": "https://github.com/emilkowalski/skills",
+      "repository_url": "https://github.com/emilkowalski/skills",
+      "skill_path": null,
+      "proposed_category": "Design & UX",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Emil Kowalski Skills. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:nextlevelbuilder/ui-ux-pro-max-skill",
+      "name": "UI UX Pro Max",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "repository_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "skill_path": null,
+      "proposed_category": "Design & UX",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for UI UX Pro Max. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:vercel-labs/agent-skills#skills/web-design-guidelines",
+      "name": "Web Design Guidelines",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines",
+      "repository_url": "https://github.com/vercel-labs/agent-skills",
+      "skill_path": "skills/web-design-guidelines",
+      "proposed_category": "Design & UX",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Web Design Guidelines. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:Leonxlnx/imagegen-skills#skills/brandkit",
+      "name": "Brand Kit",
+      "url": "https://github.com/Leonxlnx/imagegen-skills/tree/main/skills/brandkit",
+      "repository_url": "https://github.com/Leonxlnx/imagegen-skills",
+      "skill_path": "skills/brandkit",
+      "proposed_category": "Branding & Image Generation",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Brand Kit. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:Manavarya09/design-extract",
+      "name": "Design Extract",
+      "url": "https://github.com/Manavarya09/design-extract",
+      "repository_url": "https://github.com/Manavarya09/design-extract",
+      "skill_path": null,
+      "proposed_category": "Design & UX",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Design Extract. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:Leonxlnx/imagegen-skills#skills/image-to-code",
+      "name": "Image to Code",
+      "url": "https://github.com/Leonxlnx/imagegen-skills/tree/main/skills/image-to-code",
+      "repository_url": "https://github.com/Leonxlnx/imagegen-skills",
+      "skill_path": "skills/image-to-code",
+      "proposed_category": "Design & UX",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Image to Code. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:nidhinjs/prompt-master",
+      "name": "Prompt Master",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "repository_url": "https://github.com/nidhinjs/prompt-master",
+      "skill_path": null,
+      "proposed_category": "Agent Skills",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Prompt Master. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:nexu-io/open-design",
+      "name": "OpenDesign",
+      "url": "https://github.com/nexu-io/open-design",
+      "repository_url": "https://github.com/nexu-io/open-design",
+      "skill_path": null,
+      "proposed_category": "Motion & Video",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for OpenDesign. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:remotion-dev/remotion#packages/skills",
+      "name": "Remotion Skills",
+      "url": "https://github.com/remotion-dev/remotion/tree/main/packages/skills",
+      "repository_url": "https://github.com/remotion-dev/remotion",
+      "skill_path": "packages/skills",
+      "proposed_category": "Motion & Video",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Remotion Skills. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:heygen-com/hyperframes",
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "repository_url": "https://github.com/heygen-com/hyperframes",
+      "skill_path": null,
+      "proposed_category": "Motion & Video",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for HyperFrames. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
+    },
+    {
+      "id": "github:wheresryan22/anatomy",
+      "name": "Anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "repository_url": "https://github.com/wheresryan22/anatomy",
+      "skill_path": null,
+      "proposed_category": "Motion & Interactive Design",
+      "tags": [
+        "agent-skills",
+        "creator-tools"
+      ],
+      "description": "User-supplied reference for Anatomy. Source checked at repository README level; review features, licenses and permissions before adoption.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "risk_notes": [
+        "No installation, security review, or compatibility validation.",
+        "User approval required for publication, account access and external actions."
+      ]
     }
   ]
 }
