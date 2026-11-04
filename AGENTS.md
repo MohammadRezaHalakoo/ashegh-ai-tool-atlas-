@@ -37,3 +37,7 @@ Registered Jakeschincariol/day-trader-skill and Jakeschincariol/instagram-agent-
 - Expanded private GitHub Actions read-only scan of 17 repositories (run 41823059583) reported 17 package/version entries with 34 distinct GHSA IDs for Yeachan-Heo/oh-my-claudecode, out of its 409 queried npm lock entries; other ecosystem coverage remains incomplete.
 - Public candidate `data/manual_skill_candidates.json` marks this item `OSV_MATCHES_BLOCK_INSTALL`, with a trace to the private audit receipt. This is supply-chain risk triage, not an exploitability or malware determination. No install, live credentials, database access, deployment or account action.
 - Preserve candidate HOLD pending upstream dependency fixes, pinned lockfile review, full SBOM/indirect license review and sandbox tests. CI success does not mean zero vulnerabilities.
+
+## 2026-11-04 — Video editor tools candidate intake
+- Verified all ten upstream video repositories supplied by user. Nine new GitHub candidates queued into `data/manual_skill_candidates.json`, bringing queue to 30; HyperFrames already present and not duplicated. `yt-dlp` root license clarified as Unlicense (optional components may have different terms), Whisper MIT, six new MIT, Awesome video list CC0 applies only to index, MotionClone license unconfirmed.
+- Candidates remain `SOURCE_LINK_VERIFIED_UNREVIEWED`, `LIMITED_ROOT_STATIC_HOLD`; no install, source compilation, remote API access, media download, uploading or account actions. Needs per-tool dependency and privacy/copyright review and sandbox validation before promotion.
