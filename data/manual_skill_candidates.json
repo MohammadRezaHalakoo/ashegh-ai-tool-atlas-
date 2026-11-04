@@ -54,12 +54,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for YouTube Agent Skill. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:emilkowalski/skills",
@@ -73,12 +75,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Emil Kowalski Skills. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:nextlevelbuilder/ui-ux-pro-max-skill",
@@ -92,12 +96,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for UI UX Pro Max. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:vercel-labs/agent-skills#skills/web-design-guidelines",
@@ -111,12 +117,15 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Web Design Guidelines. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "NOASSERTION",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified.",
+        "Remote instructions are mutable; pin reviewed revision and confirm license."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:Leonxlnx/imagegen-skills#skills/brandkit",
@@ -130,12 +139,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Brand Kit. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:Manavarya09/design-extract",
@@ -149,12 +160,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Design Extract. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:Leonxlnx/imagegen-skills#skills/image-to-code",
@@ -168,12 +181,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Image to Code. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:nidhinjs/prompt-master",
@@ -187,12 +202,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Prompt Master. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:nexu-io/open-design",
@@ -206,12 +223,15 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for OpenDesign. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "Apache-2.0",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified.",
+        "Executable postinstall hook needs sandbox review."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:remotion-dev/remotion#packages/skills",
@@ -225,12 +245,15 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Remotion Skills. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "CUSTOM-CONDITIONAL",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified.",
+        "Commercial license eligibility depends on entity and use."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:heygen-com/hyperframes",
@@ -244,12 +267,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for HyperFrames. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "Apache-2.0",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     },
     {
       "id": "github:wheresryan22/anatomy",
@@ -263,12 +288,14 @@
         "creator-tools"
       ],
       "description": "User-supplied reference for Anatomy. Source checked at repository README level; review features, licenses and permissions before adoption.",
-      "license_claimed_by_upstream": "UNVERIFIED",
+      "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "risk_notes": [
         "No installation, security review, or compatibility validation.",
-        "User approval required for publication, account access and external actions."
-      ]
+        "User approval required for publication, account access and external actions.",
+        "Third-party dependencies, runtime and full security review remain unverified."
+      ],
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
     }
   ]
 }
