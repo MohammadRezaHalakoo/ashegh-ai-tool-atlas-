@@ -394,10 +394,11 @@
       "description": "Auto hooks and command execution need sandbox/security review.",
       "license_claimed_by_upstream": "MIT",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
-      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "static_assessment": "OSV_MATCHES_BLOCK_INSTALL",
       "risk_notes": [
         "Auto hooks and command execution need sandbox/security review.",
-        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
+        "Dependency CVEs, nested code and permissions not cleared; no installation or deployment.",
+        "2026-11-04: Limited OSV npm lockfile scan reported 17 affected package/version entries, 34 distinct GHSA IDs (409 entries queried). This is an unresolved supply-chain HOLD, not a proof of exploitability. See private registry security receipt; do not install without triage."
       ]
     },
     {
