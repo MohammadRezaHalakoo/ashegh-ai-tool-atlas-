@@ -296,6 +296,29 @@
         "Third-party dependencies, runtime and full security review remain unverified."
       ],
       "static_assessment": "LIMITED_STATIC_REVIEW_HOLD"
+    },
+    {
+      "id": "github:Graphify-Labs/graphify",
+      "name": "Graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "repository_url": "https://github.com/Graphify-Labs/graphify",
+      "proposed_category": "Agent Memory & Knowledge / GraphRAG",
+      "tags": [
+        "knowledge-graph",
+        "rag",
+        "graphrag",
+        "agent-memory",
+        "code-analysis"
+      ],
+      "description": "Python tool for building searchable knowledge graphs from code, documents and multimodal sources; optional integrations must be evaluated independently.",
+      "license_claimed_by_upstream": "Apache-2.0",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_STATIC_REVIEW_HOLD",
+      "risk_notes": [
+        "Root LICENSE and pyproject metadata inspected; recursive dependency and CVE audits not completed.",
+        "Potential data exposure when ingesting sensitive repositories or enabling optional remote providers.",
+        "No installation, external upload or credential access approved."
+      ]
     }
   ]
 }
