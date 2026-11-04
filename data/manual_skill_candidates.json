@@ -440,6 +440,187 @@
         "Agent prompt collections; individual instructions need review.",
         "Dependency CVEs, nested code and permissions not cleared; no installation or deployment."
       ]
+    },
+    {
+      "id": "github:yt-dlp/yt-dlp",
+      "name": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "repository_url": "https://github.com/yt-dlp/yt-dlp",
+      "proposed_category": "Media Download",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "Media acquisition; obey rights and hosting terms.",
+      "license_claimed_by_upstream": "Unlicense (root; optional components may differ)",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Media acquisition; obey rights and hosting terms.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution.",
+        "Upstream root LICENSE uses Unlicense, not blanket GPL-2.0-or-later; check optional components."
+      ]
+    },
+    {
+      "id": "github:openai/whisper",
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "repository_url": "https://github.com/openai/whisper",
+      "proposed_category": "Speech / ASR",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "Local speech transcription; model weights and dependency licenses require separate review.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Local speech transcription; model weights and dependency licenses require separate review.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:kurbaitaev/ghost-editor",
+      "name": "Ghost Editor",
+      "url": "https://github.com/kurbaitaev/ghost-editor",
+      "repository_url": "https://github.com/kurbaitaev/ghost-editor",
+      "proposed_category": "Video Editing",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "Talking-head editing; source commands and input privacy require checking.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Talking-head editing; source commands and input privacy require checking.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:kajisho5/ffmpeg-skill",
+      "name": "FFmpeg Skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "repository_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "proposed_category": "Video Editing",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "FFmpeg skill instructions need sandboxed command review.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "FFmpeg skill instructions need sandboxed command review.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:iart-ai/motion-skills",
+      "name": "Motion Skills",
+      "url": "https://github.com/iart-ai/motion-skills",
+      "repository_url": "https://github.com/iart-ai/motion-skills",
+      "proposed_category": "Motion & Video",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "Multiple motion packs; audit nested skills separately.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Multiple motion packs; audit nested skills separately.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:agricidaniel/claude-shorts",
+      "name": "Claude Shorts",
+      "url": "https://github.com/agricidaniel/claude-shorts",
+      "repository_url": "https://github.com/agricidaniel/claude-shorts",
+      "proposed_category": "Short Video",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "Uses video transcription and rendering; Remotion licensing applies separately.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Uses video transcription and rendering; Remotion licensing applies separately.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:blixvip/MotionClone",
+      "name": "MotionClone",
+      "url": "https://github.com/blixvip/MotionClone",
+      "repository_url": "https://github.com/blixvip/MotionClone",
+      "proposed_category": "Motion & Video",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "No root license at common paths; rights for reference videos must be checked.",
+      "license_claimed_by_upstream": "UNVERIFIED",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "No root license at common paths; rights for reference videos must be checked.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:cloudai-x/threejs-skills",
+      "name": "Three.js Skills",
+      "url": "https://github.com/cloudai-x/threejs-skills",
+      "repository_url": "https://github.com/cloudai-x/threejs-skills",
+      "proposed_category": "3D Design",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "Three.js guidance; verify installed dependency versions.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "Three.js guidance; verify installed dependency versions.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
+    },
+    {
+      "id": "github:zhuyansen/awesome-claude-video-skills",
+      "name": "Awesome Claude Video Skills",
+      "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+      "repository_url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+      "proposed_category": "Directories",
+      "tags": [
+        "video",
+        "agent-skills",
+        "content-creation"
+      ],
+      "description": "License covers list only; not linked repositories.",
+      "license_claimed_by_upstream": "CC0-1.0",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "License covers list only; not linked repositories.",
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+      ]
     }
   ]
 }
