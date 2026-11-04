@@ -13,3 +13,8 @@ GitHub plugin full_access; use work branches and Draft PR for reversible changes
 
 ## 2026-11-04 — Manual skill candidates intake
 Registered Jakeschincariol/day-trader-skill and Jakeschincariol/instagram-agent-skill in `data/manual_skill_candidates.json` on an isolated review branch. Canonical GitHub links inspected and upstream MIT license claims noted; both are `SOURCE_LINK_VERIFIED_UNREVIEWED`, not security-audited, installed, tested, or promoted to the 24-entry public catalogue. The trading pack targets market data not validated for local gold quotation markets; content pack has not been connected to any social media account. No private registry data included. Intake change commit: 00d51ac2937f55a48184e8d54d2d0b5758d954ea. Next: review integrity, supply chain and permission requirements before integration or public promotion; do not merge or release automatically.
+
+## 2026-11-04 — YouTube and creative agent skill queue
+- Added 12 user-supplied source links (11 distinct repository roots, including two Leonxlnx nested skills) to `data/manual_skill_candidates.json`. Queue now contains 14 source references including the earlier day-trader and Instagram entries.
+- Categories: YouTube production, UX/web design, brand image generation, prompt composition, video/motion, interactive anatomy. New references are `SOURCE_LINK_VERIFIED_UNREVIEWED`, not reviewed public catalogue items; public curated 24-example data remains unchanged.
+- No publication, account access, license verification, dependency execution or security approval was performed. Source commit `5af30034bbb7f9c69f605f0534970a593eaa75d2`. Keep review gates before promoting records.
