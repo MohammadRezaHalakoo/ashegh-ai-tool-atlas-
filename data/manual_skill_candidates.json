@@ -453,12 +453,13 @@
         "content-creation"
       ],
       "description": "Media acquisition; obey rights and hosting terms.",
-      "license_claimed_by_upstream": "GPL-2.0-or-later",
+      "license_claimed_by_upstream": "Unlicense (root; optional components may differ)",
       "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
       "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
       "risk_notes": [
         "Media acquisition; obey rights and hosting terms.",
-        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
+        "No dependency CVE scan, transitive license review, full source audit, or sandbox execution.",
+        "Upstream root LICENSE uses Unlicense, not blanket GPL-2.0-or-later; check optional components."
       ]
     },
     {
