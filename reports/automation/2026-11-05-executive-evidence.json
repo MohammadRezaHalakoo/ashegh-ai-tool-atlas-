@@ -1,0 +1,756 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-11-05",
+  "base_main_sha": "ea35e591066b1945e66811c01363c52107cc25f5",
+  "scope": "Public GitHub source evidence only; no private inventory.",
+  "branches": [
+    {
+      "name": "audit/creative-candidate-license-gates-20261104",
+      "sha": "803e7f6b545a52182483616f8446454156569936"
+    },
+    {
+      "name": "automation/executive-cycle-20261104",
+      "sha": "c2f1ecbc85dd99ab8e99a6b04ce1d5e290c74037"
+    },
+    {
+      "name": "catalog/graphify-source-20261104",
+      "sha": "54de6b1e068ca159c90026012627060aa59372a5"
+    },
+    {
+      "name": "catalog/intake-api-mcp-article-20261104",
+      "sha": "138e2798779aec560dda871777958a606be2a5d7"
+    },
+    {
+      "name": "catalog/intake-design-youtube-motion-20261104",
+      "sha": "bc8247f4f1c8c9d1d9a8fe56a79890b9dd43bbf2"
+    },
+    {
+      "name": "catalog/manual-skill-candidates-20261104",
+      "sha": "4e24bd8c7cbfacfc68fda8eed3fe9774c73da08c"
+    },
+    {
+      "name": "catalog/video-editor-skills-20261104",
+      "sha": "a3d0f986d6f0f2186ad021332660efb129d79060"
+    },
+    {
+      "name": "feat/comparison-guides-seo",
+      "sha": "b20e6aa14684914aee549586403263a40d1ad3ea"
+    },
+    {
+      "name": "feat/daily-safe-discovery",
+      "sha": "c5838c96c6fb664d08949890aa3d4580fde69a7a"
+    },
+    {
+      "name": "feat/mobile-tool-directory",
+      "sha": "a0909447fbb2ce18aa3c8ddc1945b6aa9c32fb7a"
+    },
+    {
+      "name": "feat/p0-p2-operations",
+      "sha": "3be6b68fa9b64cc4ae3e4f41b6e7d11543bb2a44"
+    },
+    {
+      "name": "feat/public-atlas-automation",
+      "sha": "ea22aa563748ac0aedcee368cc92c490001e7b42"
+    },
+    {
+      "name": "feat/public-curated-expansion",
+      "sha": "beb9588462e2b47ab33bbb55cb2ebebe872fa984"
+    },
+    {
+      "name": "feat/source-provenance-refresh",
+      "sha": "8522745f11cf826152afd2fb74a7e8a4422498f1"
+    },
+    {
+      "name": "feat/tool-pages-quality-gates",
+      "sha": "c84ee34b8856cd65cab786180ca459ab002520bc"
+    },
+    {
+      "name": "fix/atlas-scheduled-health-and-taxonomy",
+      "sha": "5ae028546593cb351d90090930efdbf98c264227"
+    },
+    {
+      "name": "fix/pages-public-data-deployment",
+      "sha": "d474d8ac54fb0b7049f84630facd2d640e44fa2e"
+    },
+    {
+      "name": "main",
+      "sha": "ea35e591066b1945e66811c01363c52107cc25f5"
+    },
+    {
+      "name": "security/oh-my-claudecode-osv-hold-20261104",
+      "sha": "821d3c379ff8c53883f72328b833e0072b1507be"
+    }
+  ],
+  "open_pull_requests": [],
+  "open_issues": [
+    {
+      "number": 14,
+      "title": "Weekly public catalogue review 2026-11-02",
+      "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/issues/14"
+    },
+    {
+      "number": 13,
+      "title": "Weekly public catalogue review 2026-10-26",
+      "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/issues/13"
+    },
+    {
+      "number": 10,
+      "title": "Weekly public catalogue review 2026-10-19",
+      "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/issues/10"
+    }
+  ],
+  "reliability": {
+    "window_utc": {
+      "start": "2026-10-29",
+      "end": "2026-11-04"
+    },
+    "scheduled_api_total": 69,
+    "status": "28/28 expected daily workflow runs succeeded across seven complete UTC dates",
+    "limitations": [
+      "Run-level success is not measured 24x7 site uptime.",
+      "Schedules run independently; ordered successful runs do not prove causal artifact handoff.",
+      "No November 5 scheduled result at observation; do not count the incomplete day."
+    ],
+    "days": [
+      {
+        "day_utc": "2026-10-29",
+        "runs": [
+          {
+            "id": 40900677213,
+            "name": "Atlas operations health",
+            "created_at": "2026-10-29T15:21:12Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "4926d7b6dd545004e21d92a49e2210abc164d7bf",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/40900677213"
+          },
+          {
+            "id": 40884548715,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-10-29T13:43:25Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "4926d7b6dd545004e21d92a49e2210abc164d7bf",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/40884548715"
+          },
+          {
+            "id": 40878617059,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-10-29T13:04:25Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "64505ba58fa5708ab47b0cb8a39b1681fd82445f",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/40878617059"
+          },
+          {
+            "id": 40867002603,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-10-29T11:38:56Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "f32ee25614c3e7414a927778614e6bd87a2e62e6",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/40867002603"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-10-30",
+        "runs": [
+          {
+            "id": 41078018285,
+            "name": "Atlas operations health",
+            "created_at": "2026-10-30T15:09:04Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "52d6152f49b3b6a7778b4be6e490ee557d5ad46e",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41078018285"
+          },
+          {
+            "id": 41064384177,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-10-30T13:34:31Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "52d6152f49b3b6a7778b4be6e490ee557d5ad46e",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41064384177"
+          },
+          {
+            "id": 41059373941,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-10-30T12:58:05Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "22477e23f1337bbe9af0267c4e081a4255d74781",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41059373941"
+          },
+          {
+            "id": 41048515612,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-10-30T11:30:06Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "4926d7b6dd545004e21d92a49e2210abc164d7bf",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41048515612"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-10-31",
+        "runs": [
+          {
+            "id": 41211049631,
+            "name": "Atlas operations health",
+            "created_at": "2026-10-31T14:38:11Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "a544951403fa1ed657a39a9b50212d060cb78f22",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41211049631"
+          },
+          {
+            "id": 41203880790,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-10-31T13:04:05Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "a544951403fa1ed657a39a9b50212d060cb78f22",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41203880790"
+          },
+          {
+            "id": 41201687420,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-10-31T12:34:06Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "42b9470a18cd653a0975968d4e0f39cd5d931d0b",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41201687420"
+          },
+          {
+            "id": 41195154136,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-10-31T11:02:01Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "52d6152f49b3b6a7778b4be6e490ee557d5ad46e",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41195154136"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-01",
+        "runs": [
+          {
+            "id": 41320841410,
+            "name": "Atlas operations health",
+            "created_at": "2026-11-01T15:21:46Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "9e9a4a6ffd5f15babb68f17f42329dba5a08103b",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41320841410"
+          },
+          {
+            "id": 41312971357,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-11-01T13:47:37Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "9e9a4a6ffd5f15babb68f17f42329dba5a08103b",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41312971357"
+          },
+          {
+            "id": 41311327484,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-11-01T13:27:18Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "5b0c63d347c993bcec835c9251e6e225634f626a",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41311327484"
+          },
+          {
+            "id": 41304101291,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-11-01T11:56:27Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "a544951403fa1ed657a39a9b50212d060cb78f22",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41304101291"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-02",
+        "runs": [
+          {
+            "id": 41502468245,
+            "name": "Atlas operations health",
+            "created_at": "2026-11-02T18:38:16Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "ede3db3ef31f060f86a97179e5f60f05ff3bcb64",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41502468245"
+          },
+          {
+            "id": 41482583190,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-11-02T16:33:10Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "ede3db3ef31f060f86a97179e5f60f05ff3bcb64",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41482583190"
+          },
+          {
+            "id": 41476679466,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-11-02T15:57:23Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "e32f1c10e3d93cbfa8c21bc0518ea4e96b20057b",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41476679466"
+          },
+          {
+            "id": 41455454747,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-11-02T13:43:36Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "9e9a4a6ffd5f15babb68f17f42329dba5a08103b",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41455454747"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-03",
+        "runs": [
+          {
+            "id": 41673813732,
+            "name": "Atlas operations health",
+            "created_at": "2026-11-03T16:24:07Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "8272fb8763a4dc7cdd3540a56e62341f52d6f2e2",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41673813732"
+          },
+          {
+            "id": 41655916016,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-11-03T14:39:52Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "8272fb8763a4dc7cdd3540a56e62341f52d6f2e2",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41655916016"
+          },
+          {
+            "id": 41652299180,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-11-03T14:17:54Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "22d9015e05849279a31c75f2c2203876042cc865",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41652299180"
+          },
+          {
+            "id": 41639792330,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-11-03T12:55:23Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "ede3db3ef31f060f86a97179e5f60f05ff3bcb64",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41639792330"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-04",
+        "runs": [
+          {
+            "id": 41867330908,
+            "name": "Atlas operations health",
+            "created_at": "2026-11-04T16:27:04Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "ea35e591066b1945e66811c01363c52107cc25f5",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41867330908"
+          },
+          {
+            "id": 41851923846,
+            "name": "Deploy public atlas to GitHub Pages",
+            "created_at": "2026-11-04T14:52:29Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "ea35e591066b1945e66811c01363c52107cc25f5",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41851923846"
+          },
+          {
+            "id": 41849016799,
+            "name": "Refresh public source metadata",
+            "created_at": "2026-11-04T14:35:04Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "83c3bcb1ca0e5be33c9fea01e44b6d1d8fb70520",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41849016799"
+          },
+          {
+            "id": 41835656516,
+            "name": "Discover public AI tool candidates",
+            "created_at": "2026-11-04T13:10:16Z",
+            "conclusion": "success",
+            "event": "schedule",
+            "head_sha": "93a98e05d64b929327cd73b5e51dc8359e593cf6",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41835656516"
+          }
+        ]
+      }
+    ],
+    "latest_job_receipts": [
+      {
+        "id": 41835656516,
+        "jobs": [
+          {
+            "id": 126593757270,
+            "name": "discover",
+            "conclusion": "success",
+            "steps": [
+              {
+                "name": "Set up job",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "result": "success"
+              },
+              {
+                "name": "Discover public candidates without publishing",
+                "result": "success"
+              },
+              {
+                "name": "Evaluate candidate metadata without publishing",
+                "result": "success"
+              },
+              {
+                "name": "Validate candidate queue",
+                "result": "success"
+              },
+              {
+                "name": "Commit discovery queue only",
+                "result": "success"
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "result": "success"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "result": "success"
+              },
+              {
+                "name": "Complete job",
+                "result": "success"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 41849016799,
+        "jobs": [
+          {
+            "id": 126639984803,
+            "name": "refresh",
+            "conclusion": "success",
+            "steps": [
+              {
+                "name": "Set up job",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "result": "success"
+              },
+              {
+                "name": "Fetch GitHub public metadata only",
+                "result": "success"
+              },
+              {
+                "name": "Run tests",
+                "result": "success"
+              },
+              {
+                "name": "Commit refreshed public snapshots",
+                "result": "success"
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "result": "success"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "result": "success"
+              },
+              {
+                "name": "Complete job",
+                "result": "success"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 41851923846,
+        "jobs": [
+          {
+            "id": 126650200454,
+            "name": "deploy",
+            "conclusion": "success",
+            "steps": [
+              {
+                "name": "Set up job",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/checkout@v4",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/configure-pages@v5",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/setup-python@v5",
+                "result": "success"
+              },
+              {
+                "name": "Refresh public metadata for deployed artifact",
+                "result": "success"
+              },
+              {
+                "name": "Generate tool profiles and sitemap",
+                "result": "success"
+              },
+              {
+                "name": "Prepare public static site",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/upload-pages-artifact@v3",
+                "result": "success"
+              },
+              {
+                "name": "Run actions/deploy-pages@v4",
+                "result": "success"
+              },
+              {
+                "name": "Post Run actions/setup-python@v5",
+                "result": "success"
+              },
+              {
+                "name": "Post Run actions/checkout@v4",
+                "result": "success"
+              },
+              {
+                "name": "Complete job",
+                "result": "success"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "upstream": [
+    {
+      "repository": "msitarzewski/agency-agents",
+      "head": {
+        "sha": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+        "date": "2026-10-25T00:37:22Z",
+        "message": "Merge pull request #1177 from ayobamiseun/feat/electrical-engineer-agent",
+        "url": "https://github.com/msitarzewski/agency-agents/commit/b37b5bb33b78f2c1d6567d98e25ca818e3259219"
+      },
+      "latest_releases": [],
+      "license": {
+        "spdx": "MIT",
+        "source_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+        "files": [
+          "LICENSE"
+        ],
+        "blob_shas": [
+          "523078c01624b9b1b1c551e75054b9d3a9f953ab"
+        ],
+        "scope": "Root files only; dependency and vendored licenses not cleared"
+      },
+      "advisory_status": "UNKNOWN: direct advisory pages unavailable; release notes checked, no complete CVE/SBOM audit",
+      "review_status": "UNREVIEWED_HOLD"
+    },
+    {
+      "repository": "wshobson/agents",
+      "head": {
+        "sha": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+        "date": "2026-10-30T23:34:46Z",
+        "message": "fix: bump changed plugins and require version bumps in CI (#799)",
+        "url": "https://github.com/wshobson/agents/commit/7e2fb559cf4b824b27f1fec49fe88f7511066d26"
+      },
+      "latest_releases": [],
+      "license": {
+        "spdx": "MIT",
+        "source_commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+        "files": [
+          "LICENSE"
+        ],
+        "blob_shas": [
+          "326f0a55c96e672fedf9d807ca043c00df05ba0e"
+        ],
+        "scope": "Root files only; dependency and vendored licenses not cleared"
+      },
+      "advisory_status": "UNKNOWN: direct advisory pages unavailable; release notes checked, no complete CVE/SBOM audit",
+      "review_status": "UNREVIEWED_HOLD"
+    },
+    {
+      "repository": "anthropics/claude-quickstarts",
+      "head": {
+        "sha": "8ef47d719eba5379ff8f38133f5defcc499e856f",
+        "date": "2026-11-02T14:11:21Z",
+        "message": "Add an openshell-policy extension to the OpenShell quickstart (#531)",
+        "url": "https://github.com/anthropics/claude-quickstarts/commit/8ef47d719eba5379ff8f38133f5defcc499e856f"
+      },
+      "latest_releases": [],
+      "license": {
+        "spdx": "MIT",
+        "source_commit": "8ef47d719eba5379ff8f38133f5defcc499e856f",
+        "files": [
+          "LICENSE"
+        ],
+        "blob_shas": [
+          "e0d914d8c81feba1a081620902f8c4877ad6313d"
+        ],
+        "scope": "Root files only; dependency and vendored licenses not cleared"
+      },
+      "advisory_status": "UNKNOWN: direct advisory pages unavailable; release notes checked, no complete CVE/SBOM audit",
+      "review_status": "UNREVIEWED_HOLD"
+    },
+    {
+      "repository": "addyosmani/agent-skills",
+      "head": {
+        "sha": "301b02b12bff98e4688e6984af6556802322bbde",
+        "date": "2026-11-01T19:24:49Z",
+        "message": "Merge #736: validate review findings against code and baseline",
+        "url": "https://github.com/addyosmani/agent-skills/commit/301b02b12bff98e4688e6984af6556802322bbde"
+      },
+      "latest_releases": [
+        {
+          "tag": "0.6.15",
+          "date": "2026-10-31T06:40:31Z",
+          "body": "Agent Skills 0.6.15 stops the security skill's staged-secret check from printing the secret it finds, fixes two simplify-ignore bugs that could corrupt protected code, and makes the constraints skill's security and accessibility gates actually fail CI.\n\n## Security\n\n- **The staged-secret check no longer echoes credentials** (#718, @santhiprakash, reported by @xmxxc in #717). The old `git diff --cached | grep` printed every matching line, so a staged key landed in the terminal and in any agent's transcript. It also read as clean when git failed. The check is now `git diff --cached -i -G'…' --name-only`: it prints only file names, and a git failure exits non-zero by itself. Fixed in all three places it was documented.\n\n## Hooks\n\n- **simplify-ignore restores re-indented placeholders cleanly** (#766, @Quinnod345, #765). If `/code-simplify` un-indented a placeholder or edited its reason, Stop wrote back a broken comment around the block, a syntax error in any `/* */` language. Blocks marked with `-- simplify-ignore-start` (SQL, Lua, Haskell) no longer warn that they were deleted, and a missing lock directory no longer stops Stop before every file is restored.\n\n## Skills\n\n- **Quality gates that fail when they should** (#694, @mavericksea-ai, #693). Semgrep and axe exit 0 even with blocking findings, so the constraints skill's examples could pass CI while breaking the written bar. The skill now ships a small report gate that blocks high and critical findings, and it says to run each enforced command against a deliberate violation before calling it enforced.\n- **Contrast thresholds corrected** (#733, @CybotTM): large text is 18pt (24px) or 14pt bold, not 18px.\n- One-line gotchas from @CybotTM: compact well before the host's context limit, which varies by host (#739); keep a contradicting caller or guard in the doubt review unit (#754); and an injected exception isn't a crash, and a mocked transaction isn't a rollback (#750).\n- git-workflow-and-versioning fires on a pasted diff (#758), and security-and-hardening names session cookies in its description (#759), both @ayobamiseun as part of #620.\n- The shipping error boundary types its `children` prop (#683, @rudycelekli).\n\n## Evals\n\n- `--eval <id>` runs a single behavioral case (#742, @CybotTM).\n- The runner names any positive prompt that passes `top_k` without ranking first (#760), and the plugin-eval graders no longer expect command names that #714 removed, with the re-run recorded (#756), both @ayobamiseun.\n\n## Thanks\n\nThanks to everyone who contributed and reviewed this release: @santhiprakash, @xmxxc, @Quinnod345, @mavericksea-ai, @CybotTM, @ayobamiseun, @rudycelekli and @federicobartoli.\n\n**Full Changelog**: https://github.com/addyosmani/agent-skills/compare/0.6.14...0.6.15\n",
+          "url": "https://github.com/addyosmani/agent-skills/releases/tag/0.6.15"
+        },
+        {
+          "tag": "0.6.14",
+          "date": "2026-10-29T05:07:00Z",
+          "body": "Agent Skills 0.6.14 is mostly about code samples. More than twenty snippets across the skills either failed as written or taught the wrong thing, and they're fixed. It also closes two supply-chain and injection risks in the samples, stops Claude Code from starting `/ship` or `/build` on its own, and brings the root manifest in line with Agent Plugins 1.0.0.\n\n## Security fixes in the samples\n\n- **The Lighthouse CI example ran the unscoped `lhci` package** (#721), which isn't Lighthouse CI. It now invokes `@lhci/cli`.\n- **The rollback workflow passed its input straight into `run:`** (#691), a script injection in any repo that copied it. It goes through `env` now.\n- The constraints skill scans the working tree for secrets, not only commits (#729), and the hardening reference returns 404 before an ownership check reads a missing task (#726).\n\n## Samples that now work as written\n\n- **Accessibility:** labels are tied to their controls (#719), the loading region has a role so its label is exposed (#725), and the axe example runs the CLI that actually ships a binary (#720).\n- **Testing and debugging:** the Playwright example finds list items by their text (#688), the Jest example isolates a file in a way Jest 30 still accepts (#712), and the coverage setup installs Vitest's coverage provider, without which CI fails (#713).\n- **Frontend:** the task list passes its toggle and delete handlers down (#706), and the empty state declares its action prop (#692).\n- **API, CI and constraints:** the idempotency guard returns the skill's own error shape (#710), setup-node is described as caching the package-manager cache, not `node_modules` (#711), a ratchet reads its direction from its own column (#708), and `--fix` reaches the linter through `npm run` (#690).\n- **Everything else:** the deprecation adapter type-checks (#698), the attribution-build `onINP` import is aliased so it doesn't redeclare (#699), Lighthouse points at `http://localhost` (#727), the ADR example comment describes its own code (#707), the source-driven example quotes a sentence the React 19 post actually contains (#728), and the idea-refine helper runs from the installed skill (#724).\n\n## Skills and commands\n\n- **The lifecycle commands are user-invoked only** (#714, @monraza). Claude Code now lists commands next to skills, so without this the model could start `/ship`, `/build` and the rest by itself. The skills underneath still route as before.\n- **code-simplification fires on pasted code** (#696, @ayobamiseun), with the same one-clause change that worked for review and test-driven-development in #620, plus a case that keeps it quiet on \"make it fast\".\n\n## Hosts\n\n- **The root `plugin.json` is an Agent Plugins 1.0.0 manifest** (#463). It validates against the published schema, and Antigravity and Copilot CLI load the same 25 skills as before. The Copilot guide explains what the new `$schema` line changes.\n- The Antigravity guide tells you to write your own project `AGENTS.md` instead of copying this repo's (#747), Gemini MCP setup points at `settings.json` (#705), the Windsurf rules file gets real newlines between skills (#704), and the Cursor guide links the rules and skills pages (#723).\n\n## Evals and validators\n\n- **Routing understands clipped words** (#668, @Yi-111-a). \"docs\", \"auth\", \"config\", \"repo\" and \"deps\" now match their long forms, and \"specification\" no longer stems into \"specific\". Rank-1 routing is 94 of 95.\n- **Behavioral runs that stop early are rejected, not graded**",
+          "url": "https://github.com/addyosmani/agent-skills/releases/tag/0.6.14"
+        }
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source_commit": "301b02b12bff98e4688e6984af6556802322bbde",
+        "files": [
+          "LICENSE"
+        ],
+        "blob_shas": [
+          "d67778ada6b9cda6227e9130da182c13e73c8b2e"
+        ],
+        "scope": "Root files only; dependency and vendored licenses not cleared"
+      },
+      "advisory_status": "UNKNOWN: direct advisory pages unavailable; release notes checked, no complete CVE/SBOM audit",
+      "review_status": "UNREVIEWED_HOLD"
+    },
+    {
+      "repository": "Lexmount/moli",
+      "head": {
+        "sha": "8ed4df033bd4fc1caf58a341560cfc86dfe874eb",
+        "date": "2026-11-05T05:49:35Z",
+        "message": "perf(crypto): specialize lowercase hex encoding",
+        "url": "https://github.com/lexmount/moli/commit/8ed4df033bd4fc1caf58a341560cfc86dfe874eb"
+      },
+      "latest_releases": [
+        {
+          "tag": "v1.1.21",
+          "date": "2026-11-03T05:54:45Z",
+          "body": "## What's Changed\r\n\r\n### Security, Isolation & Cookie Policies\r\n\r\n* fix: validate request headers and randomize CDP identities #2342\r\n* fix(fetch): enforce CORP before redirect and response delivery #2286\r\n* fix(stylesheets): validate integrity before installing CSSOM #2264\r\n* fix(shared-worker): keep agent isolation independent of creator policies #2283\r\n* fix(cookies): apply age-aware Lax-by-default request policy #2181\r\n* fix(cookies): enforce native SameSite contexts for script and network access #2316\r\n\r\n### Storage, SQLite & IndexedDB\r\n\r\n* feat(storage): persist cookies and localStorage in partition SQLite databases #2200\r\n* perf(sqlite): share Tokio task machinery across storage owners #2300\r\n* fix(indexeddb): release finished transaction resources #2210\r\n* fix(indexeddb): keep argument errors in the binding realm #2223\r\n* fix(indexeddb): store native WebTransportError payloads #2112\r\n* fix(cookies): restore Secure cookies with nonsecure source metadata #2236\r\n* fix(storage): scope CDP quota usage to first-party StorageKey #2238\r\n\r\n### CDP, WebDriver & Browser Automation\r\n\r\n* fix(system-info): accept the frontend's browser session (SystemInfo always rejected over real connections) by @neosun100 in #2295\r\n* fix(serve): honor --document-start-script in protocol-server pages by @neosun100 in #2292\r\n* fix(renderer): never reuse backendNodeIds across Documents by @neosun100 in #2293\r\n* fix(webdriver): restore Classic opt-out and BiDi client workflows #2237\r\n* fix(webdriver): preserve scoped node references across Classic and BiDi #2356\r\n* fix(webdriver): unify Classic and BiDi node references #2359\r\n* fix(cdp): resume queued evaluations after history navigation #2358\r\n* fix(cdp): preserve command lifecycle during multi-page Fetch teardown #2163\r\n* fix(cdp): publish timer output while document loading remains pending #2180\r\n* chore(browser-profile): update default Chrome version to 156.0.8078.74 #2227\r\n* perf(drag): read payloads only for accepted interception #2218\r\n\r\n### Fetch, Referrer & Resource Timing\r\n\r\n* feat(dom): retain delivered meta referrer policy on each Document #1358\r\n* fix(referrer): use delivered Document policies for Fetch and XHR #2198\r\n* fix(fetch): propagate explicit referrers and preflight policies #1544\r\n* fix(performance): distinguish cached and validated resource transfers #1678\r\n* fix(fetch): gate Metadata headers on each trustworthy destination #2202\r\n* fix(worker): send typed Fetch Metadata for worker main scripts #2203\r\n* fix(fetch): preserve raw Location bytes across redirect paths #2296\r\n* fix(fetch): preserve combined Content-Type syntax in Body.blob() #2297\r\n\r\n### Messaging, Workers, Streams & WebSocket\r\n\r\n* fix(messaging): derive Window postMessage input conversions #2176\r\n* fix(messaging): prepare transfers before Window target checks #2177\r\n* fix(messaging): preserve closed MessagePort transfer identity #2185\r\n* fix(messaging): cancel closed port queues and release nested transfers #2186\r\n* fix(messaging): preserve accepted Window message source identities #2187\r\n* fix(messaging): preserve opaque origins in Wasm message checks #2193\r\n* refactor(messaging): decouple opaque origins from storage partitions #2234\r\n* fix(clone): allow default payloads with non-default transfer descriptors #2164\r\n* fix(streams): serialize transferred chunks with MessagePort metadata #2173\r\n* fix(streams): cancel readable sources when transfer fails #2174\r\n* fix(streams): notify transfer peers of deserialization errors #217",
+          "url": "https://github.com/lexmount/moli/releases/tag/v1.1.21"
+        },
+        {
+          "tag": "v1.1.20",
+          "date": "2026-10-30T14:03:22Z",
+          "body": "## What's Changed\r\n\r\n### IndexedDB & SQLite\r\n\r\n* feat(indexeddb): replace JSON storage with SQLite #2141\r\n* refactor(indexeddb): use Tokio owners and defer result loading #2153\r\n* feat(indexeddb): add transactional SQLite schema renames #2156\r\n* fix(indexeddb): preserve UTF-16 database name identity #2131\r\n* fix(indexeddb): preserve UTF-16 schema names through SQLite #2157\r\n* fix(indexeddb): expose native readonly schema attributes #2130\r\n* feat(indexeddb): store native DOMRect snapshots with shared codecs #2110\r\n* feat(indexeddb): extend native geometry snapshots with shared codecs #2135\r\n* test(indexeddb): retain live cursor mutation coverage on SQLite #2154\r\n\r\n### IndexedDB Transactions, Cursors & APIs\r\n\r\n* feat(indexeddb): admit transactions by scope and mode #1285\r\n* feat(indexeddb): add native FIFO connection request leases #1283\r\n* feat(indexeddb): coordinate native versionchange acknowledgements #1284\r\n* fix(indexeddb): isolate scoped commits and abort failed transactions #2083\r\n* fix(indexeddb): connect transaction admission across realms and workers #2085\r\n* fix(indexeddb): prepare writes before admitting requests #1956\r\n* fix(indexeddb): preserve native key types and conversion errors #2072\r\n* feat(indexeddb): support native records and bulk query options #2074\r\n* fix(indexeddb): protect cursor state and collect native snapshots #2076\r\n* fix(indexeddb): wait for upgrade requests before completing open #2077\r\n* fix(indexeddb): validate pending cursor iteration #2079\r\n* fix(indexeddb): store native DOMException payloads #2103\r\n* fix(indexeddb): preserve native database connection attributes #2099\r\n* fix(indexeddb): preserve native transaction attributes and abort reasons #2101\r\n* fix(indexeddb): preserve explicit committing transaction state #2105\r\n* fix(indexeddb): abort invalid unique index builds in request order #2109\r\n* fix(indexeddb): deduplicate multiEntry index keys per record #2096\r\n* fix(indexeddb): restore upgrade metadata and handle state on abort #1493\r\n* fix(indexeddb): release rejected synchronous write requests #1287\r\n* refactor(indexeddb): derive transaction scope and mode conversion #1998\r\n* fix(indexeddb): expose required argument counts in method lengths #1806\r\n* fix(indexeddb): expose a readonly worker prototype accessor #656\r\n* fix(indexeddb): reserve open results before upgrade completion callbacks #2114\r\n* fix(indexeddb): preserve native request attributes and factory result state #2115\r\n\r\n### Fonts & Font Loading\r\n\r\n* fix(fonts): reject malformed FontFace payloads #312\r\n* fix(fonts): share native FontFace loading across CSS and JS #492\r\n* fix(css): enable native variable font properties #1778\r\n* fix(cssom): serialize computed font from native longhands #1780\r\n* fix(css): use native font size adjustment shorthand semantics #1811\r\n* fix(fonts): bind FontFace requests to their creation Window #1886\r\n* fix(fonts): retain aggregate query Promise settlement state #1888\r\n* fix(fonts): normalize computed descriptor range endpoints #1889\r\n* fix(fonts): share full capability ranges with native layout #1890\r\n* fix(fonts): include resolved fallback sources in resource identity #1891\r\n* perf(fonts): reuse payloads and incrementally register faces #367\r\n* fix(fonts): retain pending loads across promise chains #1899\r\n* fix(fonts): retain registrations shared by CSS declarations #1900\r\n* fix(fonts): keep CSS-connected faces out of manual membership #1901\r\n* fix(fonts): admit local-only CSS font declarations #1902\r\n* fi",
+          "url": "https://github.com/lexmount/moli/releases/tag/v1.1.20"
+        }
+      ],
+      "license": {
+        "spdx": "Apache-2.0 OR MIT",
+        "source_commit": "8ed4df033bd4fc1caf58a341560cfc86dfe874eb",
+        "files": [
+          "LICENSE-APACHE",
+          "LICENSE-MIT",
+          "license-metadata.json"
+        ],
+        "blob_shas": [
+          "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "fd4a52104a9b2d165b3bf59e02b85cf1e7315058",
+          "cc011c36d50ffe56bf8233ce741dec5eaecfce4a"
+        ],
+        "scope": "Root files only; dependency and vendored licenses not cleared"
+      },
+      "advisory_status": "UNKNOWN: direct advisory pages unavailable; release notes checked, no complete CVE/SBOM audit",
+      "review_status": "UNREVIEWED_HOLD"
+    },
+    {
+      "repository": "Jakeschincariol/instagram-agent-skill",
+      "head": {
+        "sha": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+        "date": "2026-09-13T14:10:29Z",
+        "message": "Restore sentence capitals after a deleted opener",
+        "url": "https://github.com/Jakeschincariol/instagram-agent-skill/commit/d03c56bb598be770c60b201f94237e5d1a4268a6"
+      },
+      "latest_releases": [],
+      "license": {
+        "spdx": "MIT",
+        "source_commit": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+        "files": [
+          "LICENSE"
+        ],
+        "blob_shas": [
+          "ac31f09aba721de8d139c7bef3d5024421426472"
+        ],
+        "scope": "Root files only; dependency and vendored licenses not cleared"
+      },
+      "advisory_status": "UNKNOWN: direct advisory pages unavailable; release notes checked, no complete CVE/SBOM audit",
+      "review_status": "UNREVIEWED_HOLD"
+    }
+  ],
+  "reported_event_keys": [
+    "addyosmani/agent-skills@0.6.15:non-enforcing-quality-gates-and-simplify-ignore",
+    "lexmount/moli@v1.1.21:isolation-and-partition-storage"
+  ],
+  "previously_reported_suppressed": [
+    "GHSA-w766-5x43-whvw",
+    "modelcontextprotocol/servers@v2.2.0",
+    "addyosmani/agent-skills@30187c1008863f9806758bcedc07d64b84c75dbb:secret-output",
+    "wshobson/agents@62f05a18c48e1243f9ae33af5e864b51b720a2d2",
+    "anthropics/claude-quickstarts@1a18c340ca42b9137d991637afe867bdcf70a9ce"
+  ],
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "result": "PASS",
+    "count": 9,
+    "exit_code": 0,
+    "environment": "Local pinned public snapshot; no upstream candidates installed or executed"
+  },
+  "independent_review": "NOT_PERFORMED",
+  "rollback": "Close the Draft PR to discard the proposal; if later integrated, revert the change commit. No main ref update in this cycle."
+}
