@@ -44,3 +44,10 @@ Reviewed selected root licenses/manifests for 11 repositories (12 candidate link
 - Six watched upstream heads and root license evidence recorded in reports/automation/2026-11-05-executive-evidence.json. Moli uses LICENSE-APACHE/LICENSE-MIT (Apache-2.0 OR MIT); a missing generic LICENSE must not be treated as no license.
 - New risk details: Agent Skills 0.6.15 fixes non-enforcing quality gates and simplify-ignore corruption; Moli 1.1.21 includes isolation, CORP and persistent partition storage changes. Old reported security items deduplicated. Advisory-page coverage remains UNKNOWN; no CVE clearance, installation or independent review claimed.
 - Local public suite: 9 tests PASS (exit 0). Proposed changes on isolated automation branch and Draft PR only; main/catalogue promotion/permissions/secrets unchanged. Detailed evidence, priority, rollback and next step in reports/automation/2026-11-05-executive.md.
+
+## 2026-11-08 — Executive delta, same Draft PR
+- Observed main f58f3cbbf43aa39afe6379cbd6b15c6bcd0933e1; PR #23 parent head 5bf1480a0c0b9989c80279d6e515d663a87e2e48, no submitted independent reviews. Reuse its unprotected branch; no main merge or candidate promotion.
+- New reports: reports/automation/2026-11-08-executive.md and JSON evidence. Captured Inspector 2.14.0 security fixes (three GHSA), filesystem 2.2.0 controls in Servers v2.3.0, Moli 1.1.22 extraction changes, knowledge-wiki dynamic workflow and external deja-vu memory entry. External entry not installed or independently license-cleared.
+- Six source heads/root licenses rechecked; MCP transition notice recorded with mixed contribution/documentation scope. Full advisory/dependency coverage remains UNKNOWN.
+- 2026-11-01–07 UTC: 28/28 scheduled discovery/metadata/Pages/health runs successful; not uptime or causal handoff proof. Fresh public test-input snapshot: 9 tests PASS, exit 0. Independent review remains NOT_PERFORMED.
+- Rollback: revert this report commit on work branch; close PR to discard pending proposal. Next: independent review and conditional safe fixture validation; no paid or account actions.
