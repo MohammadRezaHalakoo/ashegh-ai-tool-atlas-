@@ -621,6 +621,30 @@
         "License covers list only; not linked repositories.",
         "No dependency CVE scan, transitive license review, full source audit, or sandbox execution."
       ]
+    },
+    {
+      "id": "github:AgriciDaniel/claude-seo",
+      "name": "Claude SEO",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "repository_url": "https://github.com/AgriciDaniel/claude-seo",
+      "skill_path": null,
+      "proposed_category": "SEO / GEO & Content Optimization",
+      "tags": [
+        "agent-skills",
+        "seo",
+        "geo",
+        "content-creation",
+        "claude-code"
+      ],
+      "description": "Claude Code SEO audit plugin: technical SEO, Core Web Vitals, Schema.org, E-E-A-T, GEO and content quality. Source verified in README, LICENSE and pyproject.toml; no deployment or website changes performed.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "External website crawling, third-party privacy and site permissions require review.",
+        "Python >=3.11 per pyproject; full dependencies, nested skill instructions and runtime not audited.",
+        "No install, tokens, site mutation, publishing, or authenticated analytics permitted."
+      ]
     }
   ]
 }
