@@ -55,3 +55,10 @@ Registered Jakeschincariol/day-trader-skill and Jakeschincariol/instagram-agent-
 - Six source heads/root licenses rechecked; MCP transition notice recorded with mixed contribution/documentation scope. Full advisory/dependency coverage remains UNKNOWN.
 - 2026-11-01–07 UTC: 28/28 scheduled discovery/metadata/Pages/health runs successful; not uptime or causal handoff proof. Fresh public test-input snapshot: 9 tests PASS, exit 0. Independent review remains NOT_PERFORMED.
 - Rollback: revert this report commit on work branch; close PR to discard pending proposal. Next: independent review and conditional safe fixture validation; no paid or account actions.
+
+## 2026-11-09 — Shell-pattern upstream delta
+- Main observed 3acf40636a4526676785c681a46695648a500854; existing Draft PR #23 work head a53eaeca071011cb10bbf35805a338732c6ff8ae. No submitted independent review; prior-head CI successful. Main/catalogue/manual queue unchanged by this cycle.
+- P1 conditional: wshobson/agents commit 9c61ab243def98f72da12abd41cfcf5bcd91af9d (2026-11-08) ships shell-scripting 1.2.5 sample hardening: cleanup ordering, child exit statuses and base-constrained safe_rmdir DIR BASE. No CVE or Atlas exposure asserted; no deletion example executed.
+- Six watched root licenses rechecked at heads; prior reported MCP/Moli/wiki events suppressed. Full dependency/advisory coverage remains UNKNOWN.
+- Rolling UTC 2026-11-02–08: 28/28 expected scheduled runs successful, not continuous uptime or causal chain proof. Report/JSON invariants checked; no new local code tests needed for report-only change; new-head CI recorded in PR after push.
+- Evidence: reports/automation/2026-11-09-executive-evidence.json; report: reports/automation/2026-11-09-executive.md. Rollback by reverting this change on work branch; independent PR review remains next.
