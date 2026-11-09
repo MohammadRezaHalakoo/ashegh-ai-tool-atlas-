@@ -37,3 +37,7 @@ Reviewed selected root licenses/manifests for 11 repositories (12 candidate link
 ## 2026-11-04 — Video editor tools candidate intake
 - Verified all ten upstream video repositories supplied by user. Nine new GitHub candidates queued into `data/manual_skill_candidates.json`, bringing queue to 30; HyperFrames already present and not duplicated. `yt-dlp` root license clarified as Unlicense (optional components may have different terms), Whisper MIT, six new MIT, Awesome video list CC0 applies only to index, MotionClone license unconfirmed.
 - Candidates remain `SOURCE_LINK_VERIFIED_UNREVIEWED`, `LIMITED_ROOT_STATIC_HOLD`; no install, source compilation, remote API access, media download, uploading or account actions. Needs per-tool dependency and privacy/copyright review and sandbox validation before promotion.
+
+## 2026-11-09 — Claude SEO candidate
+- Added one non-duplicate candidate `AgriciDaniel/claude-seo` to `data/manual_skill_candidates.json`, bringing candidate count to 31. Upstream README, MIT root LICENSE and Python >=3.11 pyproject metadata inspected. Tracking parameters removed from GitHub source URL.
+- Classification: SEO/GEO & Content Optimization, Claude Code skill. Remains `SOURCE_LINK_VERIFIED_UNREVIEWED` and `LIMITED_ROOT_STATIC_HOLD`; no install, website crawl, credentials, publishing or plugin activation. Full dependency and command permissions evaluation remains pending.
