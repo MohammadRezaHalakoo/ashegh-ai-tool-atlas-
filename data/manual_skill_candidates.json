@@ -645,6 +645,75 @@
         "Python >=3.11 per pyproject; full dependencies, nested skill instructions and runtime not audited.",
         "No install, tokens, site mutation, publishing, or authenticated analytics permitted."
       ]
+    },
+    {
+      "id": "github:rtk-ai/rtk",
+      "name": "RTK",
+      "url": "https://github.com/rtk-ai/rtk",
+      "repository_url": "https://github.com/rtk-ai/rtk",
+      "skill_path": null,
+      "proposed_category": "Token & Context Optimization",
+      "tags": [
+        "token-optimization",
+        "context-engineering",
+        "agent-efficiency",
+        "cross-project"
+      ],
+      "description": "Command output compression and optional proxy/hook tools; require edition-specific rights and security review.",
+      "license_claimed_by_upstream": "Apache-2.0 + BUSL-1.1 edition-specific",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "No full transitive dependency/security or sandbox audit performed.",
+        "No automatic install into user computer or ChatGPT plugin runtime.",
+        "Preserve critical error lines, source quotes, citations, timestamps and test results."
+      ]
+    },
+    {
+      "id": "github:headroomlabs-ai/headroom",
+      "name": "Headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "repository_url": "https://github.com/headroomlabs-ai/headroom",
+      "skill_path": null,
+      "proposed_category": "Token & Context Optimization",
+      "tags": [
+        "token-optimization",
+        "context-engineering",
+        "agent-efficiency",
+        "cross-project"
+      ],
+      "description": "Local context compression and reversible recovery; needs evidence-preserving benchmarks and Context Mode comparison.",
+      "license_claimed_by_upstream": "Apache-2.0",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "No full transitive dependency/security or sandbox audit performed.",
+        "No automatic install into user computer or ChatGPT plugin runtime.",
+        "Preserve critical error lines, source quotes, citations, timestamps and test results."
+      ]
+    },
+    {
+      "id": "github:microsoft/LLMLingua",
+      "name": "LLMLingua",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "repository_url": "https://github.com/microsoft/LLMLingua",
+      "skill_path": null,
+      "proposed_category": "Token & Context Optimization",
+      "tags": [
+        "token-optimization",
+        "context-engineering",
+        "agent-efficiency",
+        "cross-project"
+      ],
+      "description": "Prompt compression research; verify source fidelity on book citations, chart rules and critical exceptions.",
+      "license_claimed_by_upstream": "MIT",
+      "review_status": "SOURCE_LINK_VERIFIED_UNREVIEWED",
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD",
+      "risk_notes": [
+        "No full transitive dependency/security or sandbox audit performed.",
+        "No automatic install into user computer or ChatGPT plugin runtime.",
+        "Preserve critical error lines, source quotes, citations, timestamps and test results."
+      ]
     }
   ]
 }
