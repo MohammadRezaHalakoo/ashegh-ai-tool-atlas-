@@ -41,3 +41,8 @@ Reviewed selected root licenses/manifests for 11 repositories (12 candidate link
 ## 2026-11-09 — Claude SEO candidate
 - Added one non-duplicate candidate `AgriciDaniel/claude-seo` to `data/manual_skill_candidates.json`, bringing candidate count to 31. Upstream README, MIT root LICENSE and Python >=3.11 pyproject metadata inspected. Tracking parameters removed from GitHub source URL.
 - Classification: SEO/GEO & Content Optimization, Claude Code skill. Remains `SOURCE_LINK_VERIFIED_UNREVIEWED` and `LIMITED_ROOT_STATIC_HOLD`; no install, website crawl, credentials, publishing or plugin activation. Full dependency and command permissions evaluation remains pending.
+
+## 2026-11-09 — Token & Context Optimization candidates
+- Added three verified GitHub source links to `data/manual_skill_candidates.json`: `rtk-ai/rtk`, `headroomlabs-ai/headroom`, `microsoft/LLMLingua`; the public candidate queue now contains 34 items. Root upstream README and LICENSE files checked.
+- RTK edition licensing varies: Apache-2.0 OSS filter edition vs BUSL-1.1 engine/proxy components; Headroom root Apache-2.0; LLMLingua root MIT. This does not clear transitive licenses.
+- Each remains SOURCE_LINK_VERIFIED_UNREVIEWED / LIMITED_ROOT_STATIC_HOLD. No install, execution or integration to production plugins. Evaluate against existing Context Mode, code indexing and observability stack. Measure actual total-token savings, cost, latency and exact evidence preservation on separate research plugin and twelve-book tasks.
