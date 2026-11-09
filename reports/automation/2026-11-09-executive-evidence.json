@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-09",
+  "main_sha": "3acf40636a4526676785c681a46695648a500854",
+  "parent_work_sha": "a53eaeca071011cb10bbf35805a338732c6ff8ae",
+  "pr": 23,
+  "scope": "Read-only upstream checks; report-only work-branch change",
+  "sources": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "head": {
+        "sha": "8ae6164602c95ca78828b148b9052460ee426885",
+        "date": "2026-11-09T00:27:04Z",
+        "message": "Merge pull request #1253 from msitarzewski/integ/content-batch8"
+      },
+      "release": [],
+      "root_licenses": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "523078c01624b9b1b1c551e75054b9d3a9f953ab"
+        }
+      ],
+      "license_scope": "MIT, root only"
+    },
+    {
+      "repo": "wshobson/agents",
+      "head": {
+        "sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+        "date": "2026-11-08T13:14:13Z",
+        "message": "fix(shell-scripting): clear SkillSpector findings in bash-defensive-patterns (#808)"
+      },
+      "release": [],
+      "root_licenses": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "326f0a55c96e672fedf9d807ca043c00df05ba0e"
+        }
+      ],
+      "license_scope": "MIT, root only"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "head": {
+        "sha": "4a4224bdf0e9cfb3332167b69c90457403813625",
+        "date": "2026-11-06T19:37:53Z",
+        "message": "Knowledge wiki: rebuild the quickstart on a dynamic workflow (#534)"
+      },
+      "release": [],
+      "root_licenses": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "e0d914d8c81feba1a081620902f8c4877ad6313d"
+        }
+      ],
+      "license_scope": "MIT, root only"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "head": {
+        "sha": "301b02b12bff98e4688e6984af6556802322bbde",
+        "date": "2026-11-01T19:24:49Z",
+        "message": "Merge #736: validate review findings against code and baseline"
+      },
+      "release": [
+        {
+          "tag": "0.6.15",
+          "date": "2026-10-31T06:40:31Z",
+          "url": "https://github.com/addyosmani/agent-skills/releases/tag/0.6.15"
+        }
+      ],
+      "root_licenses": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "d67778ada6b9cda6227e9130da182c13e73c8b2e"
+        }
+      ],
+      "license_scope": "MIT, root only"
+    },
+    {
+      "repo": "lexmount/moli",
+      "head": {
+        "sha": "28d8d93a657c6c84db3499f650c892860d14043a",
+        "date": "2026-11-09T05:08:51Z",
+        "message": "refactor(stylesheets): simplify child completion and import installation"
+      },
+      "release": [
+        {
+          "tag": "v1.1.22",
+          "date": "2026-11-06T15:05:26Z",
+          "url": "https://github.com/lexmount/moli/releases/tag/v1.1.22"
+        }
+      ],
+      "root_licenses": [
+        {
+          "path": "license-metadata.json",
+          "blob_sha": "cc011c36d50ffe56bf8233ce741dec5eaecfce4a"
+        },
+        {
+          "path": "LICENSE-MIT",
+          "blob_sha": "fd4a52104a9b2d165b3bf59e02b85cf1e7315058"
+        },
+        {
+          "path": "LICENSE-APACHE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+        }
+      ],
+      "license_scope": "Apache-2.0 OR MIT, root only"
+    },
+    {
+      "repo": "Jakeschincariol/instagram-agent-skill",
+      "head": {
+        "sha": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+        "date": "2026-09-13T14:10:29Z",
+        "message": "Restore sentence capitals after a deleted opener"
+      },
+      "release": [],
+      "root_licenses": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "ac31f09aba721de8d139c7bef3d5024421426472"
+        }
+      ],
+      "license_scope": "MIT, root only"
+    }
+  ],
+  "new_event": {
+    "key": "wshobson/agents@9c61ab243def98f72da12abd41cfcf5bcd91af9d:shell-scripting-1.2.5",
+    "priority": "P1",
+    "published_at": "2026-11-08T13:14:13Z",
+    "url": "https://github.com/wshobson/agents/commit/9c61ab243def98f72da12abd41cfcf5bcd91af9d",
+    "changes": [
+      "Plugin shell-scripting 1.2.4 -> 1.2.5",
+      "Initialize task-specific temporary-directory variable and register cleanup before creation; explicit mktemp failure handling",
+      "Track/wait child jobs and preserve nonzero exit status; process descendants are not covered",
+      "safe_rmdir now takes DIR BASE, resolves paths, rejects symlink/current-directory/parent targets and requests interactive removal"
+    ],
+    "impact": "INFERRED: only relevant if older shell snippets are adopted. No such adoption/exposure in Atlas established.",
+    "action": "Before reusing upstream snippets, update references and review call sites for safe_rmdir's new two-argument signature. Do not execute deletion examples automatically.",
+    "security_claim": "Upstream sample hardening; no new GHSA/CVE or exploitability claim."
+  },
+  "suppressed": [
+    "modelcontextprotocol/inspector@2.14.0:security",
+    "modelcontextprotocol/servers@v2.3.0:filesystem",
+    "lexmount/moli@v1.1.22:export",
+    "anthropics/claude-quickstarts@4a4224bdf0e9cfb3332167b69c90457403813625:knowledge-wiki",
+    "wshobson/agents@4bde3168b43c0655c4d00ea2726e631719908a6d:deja-vu"
+  ],
+  "scheduled": {
+    "window_utc": [
+      "2026-11-02",
+      "2026-11-08"
+    ],
+    "successes": 28,
+    "expected": 28,
+    "receipts": [
+      {
+        "day_utc": "2026-11-02",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 41502468245,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41502468245"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 41482583190,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41482583190"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 41476679466,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41476679466"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 41455454747,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41455454747"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-03",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 41673813732,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41673813732"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 41655916016,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41655916016"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 41652299180,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41652299180"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 41639792330,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41639792330"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-04",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 41867330908,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41867330908"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 41851923846,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41851923846"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 41849016799,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41849016799"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 41835656516,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/41835656516"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-05",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 42066317744,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42066317744"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 42050045075,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42050045075"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 42047487794,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42047487794"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 42035353898,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42035353898"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-06",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 42248911869,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42248911869"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 42235480659,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42235480659"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 42232863747,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42232863747"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 42222885928,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42222885928"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-07",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 42384096021,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42384096021"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 42377483972,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42377483972"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 42375267429,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42375267429"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 42369906114,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42369906114"
+          }
+        ]
+      },
+      {
+        "day_utc": "2026-11-08",
+        "runs": [
+          {
+            "name": "Atlas operations health",
+            "id": 42494865161,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42494865161"
+          },
+          {
+            "name": "Deploy public atlas to GitHub Pages",
+            "id": 42486943402,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42486943402"
+          },
+          {
+            "name": "Refresh public source metadata",
+            "id": 42485017740,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42485017740"
+          },
+          {
+            "name": "Discover public AI tool candidates",
+            "id": 42478484572,
+            "result": "success",
+            "url": "https://github.com/MohammadRezaHalakoo/ashegh-ai-tool-atlas-/actions/runs/42478484572"
+          }
+        ]
+      }
+    ],
+    "limitations": "Independent run successes do not prove continuous uptime or artifact handoff."
+  },
+  "validation": {
+    "kind": "In-memory JSON invariants executed in functions runtime",
+    "checks": [
+      "7 dates, 4 unique expected workflows each, 28 successful runs",
+      "6 pinned upstream sources with fetched root-license files",
+      "one new event not in prior report"
+    ],
+    "local_repository_tests": "NOT_RUN: docs/receipt-only change; previous-head CI successes are historical",
+    "upstream_examples": "NOT_EXECUTED",
+    "independent_review": "NOT_PERFORMED"
+  },
+  "rollback": "Revert this report-only change on work branch; close Draft PR #23 to discard pending proposal. Main unchanged by this cycle.",
+  "next": "Independent review of PR; inspect old shell snippet usage before conditional integration.",
+  "advisory_coverage": "UNKNOWN outside directly verified prior advisories; current search found no newly confirmed alert, not a clean bill of health."
+}

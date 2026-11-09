@@ -40,7 +40,18 @@
       "risk_notes": [
         "No platform publishing or account access validated.",
         "Inspect tool behavior, data handling, licensing, and workflow permissions before installation."
-      ]
+      ],
+      "source_commit": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "provenance": {
+        "checked_at": "2026-11-05",
+        "repository_url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+        "commit_url": "https://github.com/Jakeschincariol/instagram-agent-skill/commit/d03c56bb598be770c60b201f94237e5d1a4268a6",
+        "license_url": "https://github.com/Jakeschincariol/instagram-agent-skill/blob/d03c56bb598be770c60b201f94237e5d1a4268a6/LICENSE",
+        "license_blob_sha": "ac31f09aba721de8d139c7bef3d5024421426472",
+        "license_spdx": "MIT",
+        "scope": "Root LICENSE inspected at pinned commit; dependencies, nested content, runtime behavior and platform permissions not audited."
+      },
+      "static_assessment": "LIMITED_ROOT_STATIC_HOLD"
     },
     {
       "id": "github:Jakeschincariol/youtube-agent-skill",
