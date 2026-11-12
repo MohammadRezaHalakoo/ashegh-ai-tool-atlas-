@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "checked_at": "2026-11-11T12:53:30+00:00",
-  "note": "Candidate queue only; includes user-provided screenshot intake 2026-11-12; not published to the public tool catalogue without source review.",
+  "note": "Candidate queue only; includes user-provided screenshot intake 2026-11-12; not published to the public tool catalogue without source review. Includes screenshot-sourced candidate records (2026-11-12) pending canonical URL and license/security review; not public catalogue.",
   "expected_queries": 24,
   "successful_queries": 24,
   "failed_queries": [],
