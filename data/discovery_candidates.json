@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "checked_at": "2026-11-11T12:53:30+00:00",
-  "note": "Candidate queue only; not published to the public tool catalogue without source review.",
+  "note": "Candidate queue only; includes user-provided screenshot intake 2026-11-12; not published to the public tool catalogue without source review.",
   "expected_queries": 24,
   "successful_queries": 24,
   "failed_queries": [],
@@ -307,6 +307,20 @@
       "source_query": "topic:document-ai"
     },
     {
+      "id": "github:aider-ai/aider",
+      "name": "aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "proposed_category": "AI Coding",
+      "description": "AI pair programming",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:aidless/mm-epc",
       "name": "mm-epc",
       "url": "https://github.com/aidless/mm-epc",
@@ -571,6 +585,20 @@
       "source_query": "topic:transformers"
     },
     {
+      "id": "github:anaisbetts/mcp-installer",
+      "name": "mcp-installer",
+      "url": "https://github.com/anaisbetts/mcp-installer",
+      "proposed_category": "MCP, Skills & Plugins",
+      "description": "MCP installer",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:AndreaAcanfora/perche",
       "name": "perche",
       "url": "https://github.com/AndreaAcanfora/perche",
@@ -641,6 +669,62 @@
       "license_spdx": "MIT",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:ai-safety"
+    },
+    {
+      "id": "github:anthropics/claude-code",
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "proposed_category": "AI Coding",
+      "description": "Claude Code",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
+      "id": "github:anthropics/claude-cookbooks",
+      "name": "claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "proposed_category": "AI Coding",
+      "description": "Claude recipes",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
+      "id": "github:anthropics/claude-desktop-extensions",
+      "name": "claude-desktop-extensions",
+      "url": "https://github.com/anthropics/claude-desktop-extensions",
+      "proposed_category": "MCP, Skills & Plugins",
+      "description": "Claude Desktop extensions",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
+      "id": "github:anthropics/claude-quickstarts",
+      "name": "claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "proposed_category": "AI Coding",
+      "description": "Claude quickstarts",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:apache/airflow",
@@ -1243,6 +1327,20 @@
       "source_query": "topic:agent-memory"
     },
     {
+      "id": "github:cline/cline",
+      "name": "cline",
+      "url": "https://github.com/cline/cline",
+      "proposed_category": "AI Coding",
+      "description": "Coding assistant",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:cloverx-id/luminamoon",
       "name": "luminamoon",
       "url": "https://github.com/cloverx-id/luminamoon",
@@ -1337,6 +1435,20 @@
       "license_spdx": "Apache-2.0",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:mcp-server"
+    },
+    {
+      "id": "github:continuedev/continue",
+      "name": "continue",
+      "url": "https://github.com/continuedev/continue",
+      "proposed_category": "AI Coding",
+      "description": "Coding assistant",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:cortexkit/magic-context",
@@ -1783,6 +1895,20 @@
       "source_query": "topic:ai-safety"
     },
     {
+      "id": "github:doriandarko/claude-engineer",
+      "name": "claude-engineer",
+      "url": "https://github.com/Doriandarko/claude-engineer",
+      "proposed_category": "AI Coding",
+      "description": "Coding agent",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:double2tea/magpie-qwen-mm",
       "name": "magpie-qwen-mm",
       "url": "https://github.com/double2tea/magpie-qwen-mm",
@@ -2045,6 +2171,20 @@
       "license_spdx": "Apache-2.0",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:document-ai"
+    },
+    {
+      "id": "github:eyaltoledano/claude-task-master",
+      "name": "claude-task-master",
+      "url": "https://github.com/eyaltoledano/claude-task-master",
+      "proposed_category": "AI Coding",
+      "description": "Coding task management",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:FadiSaif/SEAL-DataLakehouse",
@@ -2647,6 +2787,20 @@
       "source_query": "topic:machine-learning-research"
     },
     {
+      "id": "github:hesreallyhim/awesome-claude-code",
+      "name": "awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "proposed_category": "MCP, Skills & Plugins",
+      "description": "Claude resource index",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:Heuremen-LLC/indahl.ai",
       "name": "indahl.ai",
       "url": "https://github.com/Heuremen-LLC/indahl.ai",
@@ -2861,6 +3015,20 @@
       "license_spdx": "MIT",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:ai-agents"
+    },
+    {
+      "id": "github:idosal/mcphub",
+      "name": "mcpHub",
+      "url": "https://github.com/idosal/mcpHub",
+      "proposed_category": "MCP, Skills & Plugins",
+      "description": "MCP hub",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:infiniflow/ragflow",
@@ -3715,6 +3883,20 @@
       "source_query": "topic:data-engineering"
     },
     {
+      "id": "github:liuyoshio/mcp-compass",
+      "name": "mcp-compass",
+      "url": "https://github.com/liuyoshio/mcp-compass",
+      "proposed_category": "MCP, Skills & Plugins",
+      "description": "MCP discovery",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:ljn66666/emb-ai-kit",
       "name": "emb-ai-kit",
       "url": "https://github.com/ljn66666/emb-ai-kit",
@@ -4001,6 +4183,20 @@
       "license_spdx": "UNKNOWN",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:synthetic-data"
+    },
+    {
+      "id": "github:microsoft/tokeneconomizer",
+      "name": "TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "proposed_category": "Model Optimization",
+      "description": "Coding agent token cost research",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:midopa-dept/stewart",
@@ -4313,6 +4509,20 @@
       "license_spdx": "MIT",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:data-engineering"
+    },
+    {
+      "id": "github:musistudio/claude-code-router",
+      "name": "claude-code-router",
+      "url": "https://github.com/musistudio/claude-code-router",
+      "proposed_category": "Model Optimization",
+      "description": "Claude model routing",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:musterhq/muster",
@@ -4939,6 +5149,20 @@
       "source_query": "topic:computer-vision"
     },
     {
+      "id": "github:opendevin/opendevin",
+      "name": "OpenDevin",
+      "url": "https://github.com/OpenDevin/OpenDevin",
+      "proposed_category": "Agent Frameworks",
+      "description": "Software engineering agent",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
+    },
+    {
       "id": "github:Opening-Science/twin-llm",
       "name": "twin-llm",
       "url": "https://github.com/Opening-Science/twin-llm",
@@ -4949,6 +5173,20 @@
       "license_spdx": "Apache-2.0",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:llm-evaluation"
+    },
+    {
+      "id": "github:openinterpreter/open-interpreter",
+      "name": "open-interpreter",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "proposed_category": "AI Coding",
+      "description": "Computer operation",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:openrois/openrois",
@@ -5069,6 +5307,20 @@
       "license_spdx": "MIT",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:workflow-automation"
+    },
+    {
+      "id": "github:parallaxes/claude-swarm",
+      "name": "claude-swarm",
+      "url": "https://github.com/parallaxes/claude-swarm",
+      "proposed_category": "Agent Frameworks",
+      "description": "Agent swarm",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:paulwritescode/lighthouse",
@@ -5333,6 +5585,20 @@
       "license_spdx": "MIT",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:llm-ui"
+    },
+    {
+      "id": "github:punkpeye/awesome-mcp-servers",
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "proposed_category": "MCP, Skills & Plugins",
+      "description": "MCP server list",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:pykale/pykale",
@@ -6341,6 +6607,20 @@
       "license_spdx": "MIT",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:agent-memory"
+    },
+    {
+      "id": "github:superclaude-org/superclaude_framework",
+      "name": "SuperClaude_Framework",
+      "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "proposed_category": "Agent Frameworks",
+      "description": "Claude orchestration",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:superlinked/sie",
@@ -7673,6 +7953,20 @@
       "license_spdx": "Apache-2.0",
       "review_status": "DISCOVERED_UNREVIEWED",
       "source_query": "topic:agent-memory"
+    },
+    {
+      "id": "github:zebbern/claude-dev-tools",
+      "name": "claude-dev-tools",
+      "url": "https://github.com/zebbern/claude-dev-tools",
+      "proposed_category": "AI Coding",
+      "description": "Developer tooling",
+      "stars_snapshot": null,
+      "archived": null,
+      "license_spdx": "UNKNOWN",
+      "review_status": "DISCOVERED_UNREVIEWED",
+      "source_query": "user screenshots 2026-11-12",
+      "source_type": "screenshot",
+      "source_date": "2026-11-12"
     },
     {
       "id": "github:Zer0codestuff/dwarf-violetto",
