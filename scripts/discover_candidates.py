@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 CATALOG=ROOT/"data/public_examples.json"
 OUT=ROOT/"data/discovery_candidates.json"
+MANUAL=ROOT/"data/manual_candidates.json"
 QUERIES={
  "Agent Frameworks":"topic:ai-agents",
  "MCP, Skills & Plugins":"topic:mcp-server",
@@ -62,6 +63,13 @@ def main():
              "license_spdx":(item.get("license") or {}).get("spdx_id") or "UNKNOWN",
              "review_status":"DISCOVERED_UNREVIEWED","source_query":query}
     if len(failures)>len(QUERIES)//4:raise SystemExit("Discovery quality gate: too many GitHub search failures; preserve previous queue")
+    # Preserve screenshot/manual discoveries across scheduled refreshes.
+    # These records remain unreviewed and are never auto-promoted to public_examples.json.
+    if MANUAL.exists():
+        for item in json.loads(MANUAL.read_text(encoding="utf-8")):
+            key=item["id"].lower()
+            if key not in existing and key not in found:
+                found[key]=item
     result={"schema_version":"1.0","checked_at":datetime.now(timezone.utc).isoformat(timespec="seconds"),
       "note":"Candidate queue only; not published to the public tool catalogue without source review.",
       "expected_queries":len(QUERIES),"successful_queries":len(QUERIES)-len(failures),"failed_queries":failures,
